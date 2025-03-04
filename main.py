@@ -1,3 +1,8 @@
-from lib.moduleExtension.re import is_valid_email
+from lib.database.database import *
 
-print(is_valid_email(input("Enter an email: ")))
+conn = create_connection("test.db")
+create_table(conn, "CREATE TABLE IF NOT EXISTS test (id INTEGER PRIMARY KEY, name TEXT NOT NULL)")
+execute_query(conn, "INSERT INTO test (name) VALUES (?)", ("test",))
+print(fetch_all(conn, "SELECT * FROM test"))
+delete_table(conn, "test")
+close_connection(conn)
