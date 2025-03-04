@@ -1,4 +1,5 @@
 from lib.config.loader import CONFIG
+from lib import sym
 #from lib.utils.decorators import deactive
 
 import os
@@ -10,7 +11,7 @@ def _log(msg: str, level: str, printLog: bool = False) -> None:
     
     RST: str = CONFIG["logging"]["colors"]["RESET"]
     lvl: str = level.upper()
-    msgp: str = CONFIG["logging"]["format"].replace(r'%(levelname)s', (CONFIG["logging"]["colors"][lvl] + lvl + RST)).replace(r'%(datetime)s', ((' ' * (15 - 4 - len(lvl))) + datetime.now().strftime(CONFIG["logging"]["colors"]["DATETIME"] + CONFIG["logging"]["datetimeFormat"] + RST))).replace(r'%(message)s', (CONFIG["logging"]["colors"]["MESSAGE"] + msg + RST) if level != "critical" else (CONFIG["logging"]["colors"][lvl] + msg + RST))
+    msgp: str = CONFIG["logging"]["format"].replace(r'%(levelname)s', (CONFIG["logging"]["colors"][lvl] + f'{sym[lvl]}' + lvl + RST)).replace(r'%(datetime)s', ((' ' * (15 - 4 - len(lvl))) + datetime.now().strftime(CONFIG["logging"]["colors"]["DATETIME"] + CONFIG["logging"]["datetimeFormat"] + RST))).replace(r'%(message)s', (CONFIG["logging"]["colors"]["MESSAGE"] + msg + RST) if level != "critical" else (CONFIG["logging"]["colors"][lvl] + msg + RST))
     msgf: str = CONFIG["logging"]["format"].replace(r'%(levelname)s', lvl).replace(r'%(datetime)s', (' ' * (15 - 4 - len(lvl))) + datetime.now().strftime(CONFIG["logging"]["datetimeFormat"])).replace(r'%(message)s', msg).replace('\u001b[36;1m', '').replace('\u001b[30;1m', '')  + '\n'
     
     with open(CONFIG["paths"]["log_file"], 'a', encoding="utf-8") as f:
@@ -18,7 +19,6 @@ def _log(msg: str, level: str, printLog: bool = False) -> None:
     
     if printLog:
         print(msgp)
-    
 
 class Logger:
     def __init__(self, printLog: bool = False) -> None:
