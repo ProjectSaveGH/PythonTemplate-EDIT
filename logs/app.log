@@ -671,3 +671,14 @@
 [ INFO ]         Tue 04. Mar 2025  20:35:57.567549 | Query fetched successfully
 [ INFO ]         Tue 04. Mar 2025  20:35:57.831339 | Table test deleted successfully
 [ INFO ]         Tue 04. Mar 2025  20:35:58.043811 | Database connection closed
+[ INFO ]         Tue 04. Mar 2025  21:53:58.173514 | Converting '[1, 2, 3]' from 'list' to 'tuple'
+[ INFO ]         Tue 04. Mar 2025  21:54:11.768301 | Converting '[1, 2, 3]' from 'list' to 'str'
+[ INFO ]         Tue 04. Mar 2025  21:54:19.141099 | Converting '[1, 2, 3]' from 'list' to 'int'
+[ INFO ]         Tue 04. Mar 2025  21:54:26.800795 | Converting '[1, 2, 3]' from 'list' to 'byte'
+[ INFO ]         Tue 04. Mar 2025  21:54:33.474071 | Converting '[1, 2, 3]' from 'list' to 'bytes'
+[ INFO ]         Tue 04. Mar 2025  21:55:08.322421 | Converting 'Hello World' from 'str' to 'dict'
+[ INFO ]         Tue 04. Mar 2025  21:55:16.006275 | Converting 'Hello World' from 'str' to 'int'
+[ INFO ]         Tue 04. Mar 2025  21:55:21.143665 | Converting 'q' from 'str' to 'int'
+[ INFO ]         Tue 04. Mar 2025  21:55:23.399101 | Converting '1' from 'str' to 'int'
+[ INFO ]         Tue 04. Mar 2025  21:55:37.292583 | Converting 'None' from 'str' to 'int'
+[ INFO ]         Tue 04. Mar 2025  21:55:51.220250 | Converting 'aggdgs' from 'str' to 'None'
