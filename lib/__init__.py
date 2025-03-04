@@ -32,19 +32,19 @@ else:
 if not is_font_installed('MesloLGSDZ Nerd Font'):
     #l.debug('MesloLGSDZ Nerd Font is not installed. Please install to have a better experience.')
     sym: dict[str, str | None] = {
-        "debug": None,
-        "info": None,
-        "warn": None,
-        "error": None,
-        "critical": None
+        "DEBUG": None,
+        "INFO": None,
+        "WARN": None,
+        "ERROR": None,
+        "CRITICAL": None
     }
 
 else:
     #l.debug('MesloLGSDZ Nerd Font is installed.')
     sym: dict[str, str | None] = {
-        "debug": "",
-        "info": "",
-        "warn": "",
-        "error": "",
-        "critical": ""
+        "DEBUG": "",
+        "INFO": "",
+        "WARN": "",
+        "ERROR": "",
+        "CRITICAL": ""
     }

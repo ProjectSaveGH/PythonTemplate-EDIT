@@ -659,3 +659,15 @@
 [ INFO ]         Fri 28. Feb 2025  21:17:17.856750 | --------------------
 [ INFO ]         Fri 28. Feb 2025  21:17:17.964839 | Cleaning up: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main.egg-info ( CMD: 'rm -rf \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main.egg-info' )
 [ INFO ]         Fri 28. Feb 2025  21:17:18.070831 | Cleaned up successfully
+[ INFO ]         Tue 04. Mar 2025  20:35:31.919315 | Connected to database: test.db
+[ INFO ]         Tue 04. Mar 2025  20:35:32.194687 | Table created successfully
+[ INFO ]         Tue 04. Mar 2025  20:35:32.461960 | Query executed successfully
+[ INFO ]         Tue 04. Mar 2025  20:35:32.575056 | Query fetched successfully
+[ INFO ]         Tue 04. Mar 2025  20:35:32.847376 | Table test deleted successfully
+[ INFO ]         Tue 04. Mar 2025  20:35:33.068001 | Database connection closed
+[ INFO ]         Tue 04. Mar 2025  20:35:56.942111 | Connected to database: test.db
+[ INFO ]         Tue 04. Mar 2025  20:35:57.200520 | Table created successfully
+[ INFO ]         Tue 04. Mar 2025  20:35:57.453616 | Query executed successfully
+[ INFO ]         Tue 04. Mar 2025  20:35:57.567549 | Query fetched successfully
+[ INFO ]         Tue 04. Mar 2025  20:35:57.831339 | Table test deleted successfully
+[ INFO ]         Tue 04. Mar 2025  20:35:58.043811 | Database connection closed
