@@ -1,0 +1,6 @@
+[ INFO ]         Thu 20. Feb 2025  15:38:49.511100 | Adding argument: --file, help: Name der Datei, die ausgeführt werden soll., default: main.py, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:38:49.522058 | Adding argument: --func, help: Name der Funktion, die ausgeführt werden soll., default: main, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:38:49.527907 | Parsing arguments
+[ INFO ]         Thu 20. Feb 2025  15:38:49.532901 | Arguments parsed: Namespace(file='logger_test.py', func='main', debug=False)
+[ INFO ]         Thu 20. Feb 2025  15:38:49.539827 | Importiere und starte main() aus logger_test.py...
+[ CRITICAL ]     Thu 20. Feb 2025  15:38:49.545700 | Fehler beim Importieren von logger_test.py: No module named 'logger_test'

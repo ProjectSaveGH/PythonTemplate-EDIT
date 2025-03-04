@@ -1,0 +1,661 @@
+    [ INFO ]         Thu 20. Feb 2025  15:30:12.304059 | Adding argument: --clean_pycache, help: Cleans every PyCache in this folder, default: None, action: store_true, required: False
+[ INFO ]         Thu 20. Feb 2025  15:30:12.309878 | Parsing arguments
+[ INFO ]         Thu 20. Feb 2025  15:30:28.252846 | Adding argument: --clean_pycache, help: Cleans every PyCache in this folder, default: None, action: store_true, required: False
+[ INFO ]         Thu 20. Feb 2025  15:30:28.260072 | Parsing arguments
+[ INFO ]         Thu 20. Feb 2025  15:30:39.582002 | Adding argument: --clean_pycache, help: Cleans every PyCache in this folder, default: None, action: store_true, required: False
+[ INFO ]         Thu 20. Feb 2025  15:30:39.592235 | Parsing arguments
+[ INFO ]         Thu 20. Feb 2025  15:30:39.599405 | Arguments parsed: Namespace(clean_pycache=True, debug=False)
+[ INFO ]         Thu 20. Feb 2025  15:30:39.606250 | Bereinige __pycache__-Ordner im Verzeichnis: .
+[ INFO ]         Thu 20. Feb 2025  15:30:39.643836 | Gelöscht: .\lib\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:30:39.703978 | Gelöscht: .\lib\cli\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:30:39.749643 | Gelöscht: .\lib\config\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:30:39.796122 | Gelöscht: .\lib\logger\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:30:39.842054 | Gelöscht: .\lib\startup\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:30:39.898645 | Gelöscht: .\tests\__pycache__
+[ DEBUG ]        Thu 20. Feb 2025  15:32:57.904653 | Debug message
+[ INFO ]         Thu 20. Feb 2025  15:32:57.914205 | Hello, World!
+[ WARN ]         Thu 20. Feb 2025  15:32:57.921264 | Warning message
+[ ERROR ]        Thu 20. Feb 2025  15:32:57.928229 | Error message
+[ CRITICAL ]     Thu 20. Feb 2025  15:32:57.935540 | Critical message
+[ CRITICAL ]     Thu 20. Feb 2025  15:32:57.942511 | Critical exit message
+[ INFO ]         Thu 20. Feb 2025  15:34:08.140198 | Adding argument: --file, help: Name der Datei, die ausgeführt werden soll., default: main.py, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:34:08.151531 | Adding argument: --func, help: Name der Funktion, die ausgeführt werden soll., default: main, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:34:08.158286 | Parsing arguments
+[ INFO ]         Thu 20. Feb 2025  15:35:07.920634 | Adding argument: --file, help: Name der Datei, die ausgeführt werden soll., default: main.py, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:35:07.928053 | Adding argument: --func, help: Name der Funktion, die ausgeführt werden soll., default: main, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:35:07.935348 | Parsing arguments
+[ INFO ]         Thu 20. Feb 2025  15:35:07.942291 | Arguments parsed: Namespace(file='tests/logger_test.py', func='main', debug=False)
+[ INFO ]         Thu 20. Feb 2025  15:36:00.075350 | Adding argument: --file, help: Name der Datei, die ausgeführt werden soll., default: main.py, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:36:00.084824 | Adding argument: --func, help: Name der Funktion, die ausgeführt werden soll., default: main, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:36:00.092056 | Parsing arguments
+[ INFO ]         Thu 20. Feb 2025  15:36:00.101368 | Arguments parsed: Namespace(file='tests/logger_test.py', func='main', debug=False)
+[ INFO ]         Thu 20. Feb 2025  15:36:00.109118 | Starte Vorbereitungsarbeiten...
+[ INFO ]         Thu 20. Feb 2025  15:36:00.136144 | Überprüfe die Systemumgebung...
+[ DEBUG ]        Thu 20. Feb 2025  15:36:00.143413 | Python-Version im Detail: sys.version_info(major=3, minor=13, micro=1, releaselevel='final', serial=0)
+[ INFO ]         Thu 20. Feb 2025  15:36:00.145808 | Aktuelle Python-Version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+[ INFO ]         Thu 20. Feb 2025  15:36:00.148216 | Erstelle Backup der Konfiguration (config.yaml)...
+[ INFO ]         Thu 20. Feb 2025  15:36:00.151344 | Keine Konfigurationsdatei 'config.yaml' gefunden. Überspringe Backup.
+[ INFO ]         Thu 20. Feb 2025  15:36:00.159659 | Alle Vorbereitungsarbeiten wurden erfolgreich abgeschlossen.
+[ INFO ]         Thu 20. Feb 2025  15:36:00.167720 | Importiere und starte main() aus tests/logger_test.py...
+[ CRITICAL ]     Thu 20. Feb 2025  15:36:00.175869 | Fehler beim Importieren von tests/logger_test.py: No module named 'tests/logger_test'
+[ INFO ]         Thu 20. Feb 2025  15:36:00.183013 | Starte Nachbereitungsarbeiten...
+[ INFO ]         Thu 20. Feb 2025  15:36:00.190379 | Die Ausführung von main() dauerte 0.02 Sekunden.
+[ INFO ]         Thu 20. Feb 2025  15:36:00.197636 | Bereinige __pycache__-Ordner im Verzeichnis: .
+[ INFO ]         Thu 20. Feb 2025  15:36:00.233641 | Gelöscht: .\lib\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:36:00.268730 | Gelöscht: .\lib\cli\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:36:00.311553 | Gelöscht: .\lib\config\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:36:00.346781 | Gelöscht: .\lib\logger\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:36:00.381303 | Gelöscht: .\lib\startup\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:36:00.391073 | Starte Aufräumarbeiten im temporären Verzeichnis: temp
+[ INFO ]         Thu 20. Feb 2025  15:36:00.410895 | Kein temporäres Verzeichnis 'temp' gefunden.
+[ INFO ]         Thu 20. Feb 2025  15:36:00.418301 | Alle Nachbereitungsarbeiten wurden erfolgreich abgeschlossen.
+[ INFO ]         Thu 20. Feb 2025  15:36:27.064355 | Adding argument: --file, help: Name der Datei, die ausgeführt werden soll., default: main.py, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:36:27.072475 | Adding argument: --func, help: Name der Funktion, die ausgeführt werden soll., default: main, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:36:27.080036 | Parsing arguments
+[ INFO ]         Thu 20. Feb 2025  15:36:27.089863 | Arguments parsed: Namespace(file='tests/logger_test.py', func='main', debug=False)
+[ INFO ]         Thu 20. Feb 2025  15:36:27.099617 | Starte Vorbereitungsarbeiten...
+[ INFO ]         Thu 20. Feb 2025  15:36:27.122305 | Überprüfe die Systemumgebung...
+[ DEBUG ]        Thu 20. Feb 2025  15:36:27.129044 | Python-Version im Detail: sys.version_info(major=3, minor=13, micro=1, releaselevel='final', serial=0)
+[ INFO ]         Thu 20. Feb 2025  15:36:27.136461 | Aktuelle Python-Version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+[ INFO ]         Thu 20. Feb 2025  15:36:27.151635 | Erstelle Backup der Konfiguration (config.yaml)...
+[ INFO ]         Thu 20. Feb 2025  15:36:27.158921 | Keine Konfigurationsdatei 'config.yaml' gefunden. Überspringe Backup.
+[ INFO ]         Thu 20. Feb 2025  15:36:27.165780 | Alle Vorbereitungsarbeiten wurden erfolgreich abgeschlossen.
+[ INFO ]         Thu 20. Feb 2025  15:36:27.172972 | Importiere und starte main() aus tests/logger_test.py...
+[ CRITICAL ]     Thu 20. Feb 2025  15:36:27.180814 | Fehler beim Importieren von tests/logger_test.py: No module named 'tests/logger_test'
+[ INFO ]         Thu 20. Feb 2025  15:36:27.188298 | Starte Nachbereitungsarbeiten...
+[ INFO ]         Thu 20. Feb 2025  15:36:27.195579 | Die Ausführung von main() dauerte 0.01 Sekunden.
+[ INFO ]         Thu 20. Feb 2025  15:36:27.203402 | Bereinige __pycache__-Ordner im Verzeichnis: .
+[ INFO ]         Thu 20. Feb 2025  15:36:27.239250 | Gelöscht: .\lib\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:36:27.276900 | Gelöscht: .\lib\cli\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:36:27.307837 | Gelöscht: .\lib\config\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:36:27.344285 | Gelöscht: .\lib\logger\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:36:27.375791 | Gelöscht: .\lib\startup\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:36:27.381507 | Starte Aufräumarbeiten im temporären Verzeichnis: temp
+[ INFO ]         Thu 20. Feb 2025  15:36:27.384154 | Kein temporäres Verzeichnis 'temp' gefunden.
+[ INFO ]         Thu 20. Feb 2025  15:36:27.389832 | Alle Nachbereitungsarbeiten wurden erfolgreich abgeschlossen.
+[ INFO ]         Thu 20. Feb 2025  15:36:48.478505 | Adding argument: --file, help: Name der Datei, die ausgeführt werden soll., default: main.py, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:36:48.487201 | Adding argument: --func, help: Name der Funktion, die ausgeführt werden soll., default: main, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:36:48.494539 | Parsing arguments
+[ INFO ]         Thu 20. Feb 2025  15:36:48.506099 | Arguments parsed: Namespace(file='tests/logger_test.py', func='main', debug=False)
+[ INFO ]         Thu 20. Feb 2025  15:36:48.515924 | Starte Vorbereitungsarbeiten...
+[ INFO ]         Thu 20. Feb 2025  15:36:48.539449 | Überprüfe die Systemumgebung...
+[ DEBUG ]        Thu 20. Feb 2025  15:36:48.547899 | Python-Version im Detail: sys.version_info(major=3, minor=13, micro=1, releaselevel='final', serial=0)
+[ INFO ]         Thu 20. Feb 2025  15:36:48.555462 | Aktuelle Python-Version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+[ INFO ]         Thu 20. Feb 2025  15:36:48.562756 | Erstelle Backup der Konfiguration (config.yaml)...
+[ INFO ]         Thu 20. Feb 2025  15:36:48.572035 | Keine Konfigurationsdatei 'config.yaml' gefunden. Überspringe Backup.
+[ INFO ]         Thu 20. Feb 2025  15:36:48.579353 | Alle Vorbereitungsarbeiten wurden erfolgreich abgeschlossen.
+[ INFO ]         Thu 20. Feb 2025  15:36:48.586971 | Importiere und starte main() aus tests/logger_test.py...
+[ CRITICAL ]     Thu 20. Feb 2025  15:36:48.595043 | Fehler beim Importieren von tests/logger_test.py: No module named 'tests/logger_test'
+[ INFO ]         Thu 20. Feb 2025  15:36:48.601838 | Starte Nachbereitungsarbeiten...
+[ INFO ]         Thu 20. Feb 2025  15:36:48.609077 | Die Ausführung von main() dauerte 0.02 Sekunden.
+[ INFO ]         Thu 20. Feb 2025  15:36:48.616484 | Bereinige __pycache__-Ordner im Verzeichnis: .
+[ INFO ]         Thu 20. Feb 2025  15:36:48.665892 | Gelöscht: .\lib\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:36:48.706525 | Gelöscht: .\lib\cli\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:36:48.745980 | Gelöscht: .\lib\config\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:36:48.773021 | Gelöscht: .\lib\logger\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:36:48.799315 | Gelöscht: .\lib\startup\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:36:48.807372 | Starte Aufräumarbeiten im temporären Verzeichnis: temp
+[ INFO ]         Thu 20. Feb 2025  15:36:48.814463 | Kein temporäres Verzeichnis 'temp' gefunden.
+[ INFO ]         Thu 20. Feb 2025  15:36:48.821683 | Alle Nachbereitungsarbeiten wurden erfolgreich abgeschlossen.
+[ INFO ]         Thu 20. Feb 2025  15:37:29.284000 | Adding argument: --file, help: Name der Datei, die ausgeführt werden soll., default: main.py, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:37:29.295007 | Adding argument: --func, help: Name der Funktion, die ausgeführt werden soll., default: main, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:37:29.302492 | Parsing arguments
+[ INFO ]         Thu 20. Feb 2025  15:37:29.311411 | Arguments parsed: Namespace(file='tests/logger_test.py', func='main', debug=False)
+[ INFO ]         Thu 20. Feb 2025  15:37:29.318891 | Importiere und starte main() aus tests/logger_test.py...
+[ CRITICAL ]     Thu 20. Feb 2025  15:37:29.328015 | Fehler beim Importieren von tests/logger_test.py: No module named 'tests/logger_test'
+[ INFO ]         Thu 20. Feb 2025  15:37:53.224526 | Adding argument: --file, help: Name der Datei, die ausgeführt werden soll., default: main.py, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:37:53.229927 | Adding argument: --func, help: Name der Funktion, die ausgeführt werden soll., default: main, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:37:53.232590 | Parsing arguments
+[ INFO ]         Thu 20. Feb 2025  15:37:53.239100 | Arguments parsed: Namespace(file='tests/logger_test.py', func='main', debug=False)
+[ INFO ]         Thu 20. Feb 2025  15:37:53.246513 | Importiere und starte main() aus tests/logger_test.py...
+[ CRITICAL ]     Thu 20. Feb 2025  15:37:53.254918 | Fehler beim Importieren von tests/logger_test.py: No module named 'tests/logger_test'
+[ INFO ]         Thu 20. Feb 2025  15:38:20.797933 | Adding argument: --file, help: Name der Datei, die ausgeführt werden soll., default: main.py, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:38:20.807894 | Adding argument: --func, help: Name der Funktion, die ausgeführt werden soll., default: main, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:38:20.815151 | Parsing arguments
+[ INFO ]         Thu 20. Feb 2025  15:38:20.822393 | Arguments parsed: Namespace(file='tests.logger_test.py', func='main', debug=False)
+[ INFO ]         Thu 20. Feb 2025  15:38:20.829662 | Importiere und starte main() aus tests.logger_test.py...
+[ CRITICAL ]     Thu 20. Feb 2025  15:38:20.839986 | Fehler beim Importieren von tests.logger_test.py: No module named 'tests.logger_test'
+[ INFO ]         Thu 20. Feb 2025  15:40:24.894211 | Adding argument: --file, help: Name der Datei, die ausgeführt werden soll., default: main.py, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:40:24.901919 | Adding argument: --func, help: Name der Funktion, die ausgeführt werden soll., default: main, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:40:24.909109 | Parsing arguments
+[ INFO ]         Thu 20. Feb 2025  15:40:24.916686 | Arguments parsed: Namespace(file='main.py', func='main', debug=False)
+[ INFO ]         Thu 20. Feb 2025  15:40:24.923857 | Starte Vorbereitungsarbeiten...
+[ INFO ]         Thu 20. Feb 2025  15:40:24.949041 | Überprüfe die Systemumgebung...
+[ DEBUG ]        Thu 20. Feb 2025  15:40:24.958485 | Python-Version im Detail: sys.version_info(major=3, minor=13, micro=1, releaselevel='final', serial=0)
+[ INFO ]         Thu 20. Feb 2025  15:40:24.965569 | Aktuelle Python-Version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+[ INFO ]         Thu 20. Feb 2025  15:40:24.972751 | Erstelle Backup der Konfiguration (config.yaml)...
+[ INFO ]         Thu 20. Feb 2025  15:40:24.979659 | Keine Konfigurationsdatei 'config.yaml' gefunden. Überspringe Backup.
+[ INFO ]         Thu 20. Feb 2025  15:40:24.986802 | Alle Vorbereitungsarbeiten wurden erfolgreich abgeschlossen.
+[ INFO ]         Thu 20. Feb 2025  15:40:24.993828 | Importiere und starte main() aus main.py...
+[ DEBUG ]        Thu 20. Feb 2025  15:40:25.031044 | Import von main.py erfolgreich.
+[ ERROR ]        Thu 20. Feb 2025  15:40:25.036316 | Fehler bei der Ausführung von main(): exceptions must derive from BaseException
+[ INFO ]         Thu 20. Feb 2025  15:40:25.043473 | Starte Nachbereitungsarbeiten...
+[ INFO ]         Thu 20. Feb 2025  15:40:25.050936 | Die Ausführung von main() dauerte 0.05 Sekunden.
+[ INFO ]         Thu 20. Feb 2025  15:40:25.057805 | Bereinige __pycache__-Ordner im Verzeichnis: .
+[ INFO ]         Thu 20. Feb 2025  15:40:25.100485 | Gelöscht: .\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:40:25.137716 | Gelöscht: .\lib\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:40:25.173619 | Gelöscht: .\lib\cli\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:40:25.209988 | Gelöscht: .\lib\config\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:40:25.245365 | Gelöscht: .\lib\logger\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:40:25.285113 | Gelöscht: .\lib\startup\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:40:25.291444 | Starte Aufräumarbeiten im temporären Verzeichnis: temp
+[ INFO ]         Thu 20. Feb 2025  15:40:25.293979 | Kein temporäres Verzeichnis 'temp' gefunden.
+[ INFO ]         Thu 20. Feb 2025  15:40:25.296823 | Alle Nachbereitungsarbeiten wurden erfolgreich abgeschlossen.
+[ INFO ]         Thu 20. Feb 2025  15:41:05.740804 | Adding argument: --file, help: Name der Datei, die ausgeführt werden soll., default: main.py, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:41:05.760948 | Adding argument: --func, help: Name der Funktion, die ausgeführt werden soll., default: main, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:41:05.768980 | Parsing arguments
+[ INFO ]         Thu 20. Feb 2025  15:41:05.778647 | Arguments parsed: Namespace(file='main.py', func='main', debug=False)
+[ INFO ]         Thu 20. Feb 2025  15:41:05.786642 | Starte Vorbereitungsarbeiten...
+[ INFO ]         Thu 20. Feb 2025  15:41:05.795163 | Überprüfe die Systemumgebung...
+[ DEBUG ]        Thu 20. Feb 2025  15:41:05.803287 | Python-Version im Detail: sys.version_info(major=3, minor=13, micro=1, releaselevel='final', serial=0)
+[ INFO ]         Thu 20. Feb 2025  15:41:05.810939 | Aktuelle Python-Version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+[ INFO ]         Thu 20. Feb 2025  15:41:05.826300 | Erstelle Backup der Konfiguration (config.yaml)...
+[ INFO ]         Thu 20. Feb 2025  15:41:05.834534 | Keine Konfigurationsdatei 'config.yaml' gefunden. Überspringe Backup.
+[ INFO ]         Thu 20. Feb 2025  15:41:05.842870 | Alle Vorbereitungsarbeiten wurden erfolgreich abgeschlossen.
+[ INFO ]         Thu 20. Feb 2025  15:41:05.851820 | Importiere und starte main() aus main.py...
+[ DEBUG ]        Thu 20. Feb 2025  15:41:05.934528 | Import von main.py erfolgreich.
+[ ERROR ]        Thu 20. Feb 2025  15:41:05.971073 | Fehler bei der Ausführung von main(): exceptions must derive from BaseException
+[ INFO ]         Thu 20. Feb 2025  15:41:05.980851 | Starte Nachbereitungsarbeiten...
+[ INFO ]         Thu 20. Feb 2025  15:41:05.990297 | Die Ausführung von main() dauerte 0.13 Sekunden.
+[ INFO ]         Thu 20. Feb 2025  15:41:05.998268 | Bereinige __pycache__-Ordner im Verzeichnis: .
+[ INFO ]         Thu 20. Feb 2025  15:41:06.034221 | Gelöscht: .\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:41:06.070110 | Gelöscht: .\lib\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:41:06.112623 | Gelöscht: .\lib\cli\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:41:06.149208 | Gelöscht: .\lib\config\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:41:06.185849 | Gelöscht: .\lib\logger\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:41:06.224766 | Gelöscht: .\lib\startup\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:41:06.233752 | Starte Aufräumarbeiten im temporären Verzeichnis: temp
+[ INFO ]         Thu 20. Feb 2025  15:41:06.241171 | Kein temporäres Verzeichnis 'temp' gefunden.
+[ INFO ]         Thu 20. Feb 2025  15:41:06.248989 | Alle Nachbereitungsarbeiten wurden erfolgreich abgeschlossen.
+[ INFO ]         Thu 20. Feb 2025  15:42:35.428296 | Adding argument: --file, help: Name der Datei, die ausgeführt werden soll., default: main.py, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:42:35.434348 | Adding argument: --func, help: Name der Funktion, die ausgeführt werden soll., default: main, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:42:35.441831 | Parsing arguments
+[ INFO ]         Thu 20. Feb 2025  15:42:35.451734 | Arguments parsed: Namespace(file='main.py', func='main', debug=False)
+[ INFO ]         Thu 20. Feb 2025  15:42:35.459590 | Starte Vorbereitungsarbeiten...
+[ INFO ]         Thu 20. Feb 2025  15:42:35.468819 | Überprüfe die Systemumgebung...
+[ DEBUG ]        Thu 20. Feb 2025  15:42:35.478497 | Python-Version im Detail: sys.version_info(major=3, minor=13, micro=1, releaselevel='final', serial=0)
+[ INFO ]         Thu 20. Feb 2025  15:42:35.484455 | Aktuelle Python-Version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+[ INFO ]         Thu 20. Feb 2025  15:42:35.487901 | Erstelle Backup der Konfiguration (config.yaml)...
+[ INFO ]         Thu 20. Feb 2025  15:42:35.490696 | Keine Konfigurationsdatei 'config.yaml' gefunden. Überspringe Backup.
+[ INFO ]         Thu 20. Feb 2025  15:42:35.496548 | Alle Vorbereitungsarbeiten wurden erfolgreich abgeschlossen.
+[ INFO ]         Thu 20. Feb 2025  15:42:35.513486 | Importiere und starte main() aus main.py...
+[ DEBUG ]        Thu 20. Feb 2025  15:42:35.565770 | Import von main.py erfolgreich.
+[ ERROR ]        Thu 20. Feb 2025  15:42:35.570859 | Fehler bei der Ausführung von main(): COOL LUDWIG
+[ INFO ]         Thu 20. Feb 2025  15:42:35.578842 | Starte Nachbereitungsarbeiten...
+[ INFO ]         Thu 20. Feb 2025  15:42:35.586594 | Die Ausführung von main() dauerte 0.07 Sekunden.
+[ INFO ]         Thu 20. Feb 2025  15:42:35.594726 | Bereinige __pycache__-Ordner im Verzeichnis: .
+[ INFO ]         Thu 20. Feb 2025  15:42:35.631680 | Gelöscht: .\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:42:35.667697 | Gelöscht: .\lib\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:42:35.705635 | Gelöscht: .\lib\cli\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:42:35.747814 | Gelöscht: .\lib\config\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:42:35.784099 | Gelöscht: .\lib\logger\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:42:35.820213 | Gelöscht: .\lib\startup\__pycache__
+[ INFO ]         Thu 20. Feb 2025  15:42:35.830381 | Starte Aufräumarbeiten im temporären Verzeichnis: temp
+[ INFO ]         Thu 20. Feb 2025  15:42:35.838443 | Kein temporäres Verzeichnis 'temp' gefunden.
+[ INFO ]         Thu 20. Feb 2025  15:42:35.846375 | Alle Nachbereitungsarbeiten wurden erfolgreich abgeschlossen.
+[ INFO ]         Thu 20. Feb 2025  15:43:04.515366 | Adding argument: --file, help: Name der Datei, die ausgeführt werden soll., default: main.py, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:43:04.523482 | Adding argument: --func, help: Name der Funktion, die ausgeführt werden soll., default: main, action: None, required: False
+[ INFO ]         Thu 20. Feb 2025  15:43:04.542479 | Parsing arguments
+[ INFO ]         Thu 20. Feb 2025  15:43:04.550153 | Arguments parsed: Namespace(file='main.py', func='main', debug=False)
+[ INFO ]         Thu 20. Feb 2025  15:43:04.558036 | Starte Vorbereitungsarbeiten...
+[ INFO ]         Thu 20. Feb 2025  15:43:04.565845 | Überprüfe die Systemumgebung...
+[ DEBUG ]        Thu 20. Feb 2025  15:43:04.573629 | Python-Version im Detail: sys.version_info(major=3, minor=13, micro=1, releaselevel='final', serial=0)
+[ INFO ]         Thu 20. Feb 2025  15:43:04.581748 | Aktuelle Python-Version: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+[ INFO ]         Thu 20. Feb 2025  15:43:04.589891 | Erstelle Backup der Konfiguration (config.yaml)...
+[ INFO ]         Thu 20. Feb 2025  15:43:04.598546 | Keine Konfigurationsdatei 'config.yaml' gefunden. Überspringe Backup.
+[ INFO ]         Thu 20. Feb 2025  15:43:04.606511 | Alle Vorbereitungsarbeiten wurden erfolgreich abgeschlossen.
+[ INFO ]         Thu 20. Feb 2025  15:43:04.614557 | Importiere und starte main() aus main.py...
+[ DEBUG ]        Thu 20. Feb 2025  15:43:04.665948 | Import von main.py erfolgreich.
+[ INFO ]         Sun 23. Feb 2025  11:24:29.932801 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist' )
+[ INFO ]         Sun 23. Feb 2025  11:24:30.129841 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:24:30.290202 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build' )
+[ INFO ]         Sun 23. Feb 2025  11:24:30.502555 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:24:30.653943 | 
+[ INFO ]         Sun 23. Feb 2025  11:24:30.761871 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:24:30.866021 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:24:30.973987 | 
+[ INFO ]         Sun 23. Feb 2025  11:24:31.078034 | You can now build the package
+[ INFO ]         Sun 23. Feb 2025  11:24:31.185909 | 
+[ INFO ]         Sun 23. Feb 2025  11:24:31.289946 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:24:46.899832 | Building package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Sun 23. Feb 2025  11:29:33.488955 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist' )
+[ INFO ]         Sun 23. Feb 2025  11:29:33.647682 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:29:33.759263 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build' )
+[ INFO ]         Sun 23. Feb 2025  11:29:33.884540 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:29:33.990110 | 
+[ INFO ]         Sun 23. Feb 2025  11:29:34.094463 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:29:34.197948 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:29:34.305966 | 
+[ INFO ]         Sun 23. Feb 2025  11:29:34.409880 | You can now build the package
+[ INFO ]         Sun 23. Feb 2025  11:29:34.517957 | 
+[ INFO ]         Sun 23. Feb 2025  11:29:34.621881 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:29:36.099859 | Building package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Sun 23. Feb 2025  11:30:33.644067 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist' )
+[ INFO ]         Sun 23. Feb 2025  11:30:33.778344 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:30:33.890211 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build' )
+[ INFO ]         Sun 23. Feb 2025  11:30:34.016571 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:30:34.129972 | 
+[ INFO ]         Sun 23. Feb 2025  11:30:34.237916 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:30:34.341982 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:30:34.445894 | 
+[ INFO ]         Sun 23. Feb 2025  11:30:34.549902 | You can now build the package
+[ INFO ]         Sun 23. Feb 2025  11:30:34.653866 | 
+[ INFO ]         Sun 23. Feb 2025  11:30:34.757982 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:30:36.653646 | Building package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Sun 23. Feb 2025  11:31:37.878285 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist' )
+[ INFO ]         Sun 23. Feb 2025  11:31:38.043085 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:31:38.160689 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build' )
+[ INFO ]         Sun 23. Feb 2025  11:31:38.304719 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:31:38.414567 | 
+[ INFO ]         Sun 23. Feb 2025  11:31:38.521901 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:31:38.630320 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:31:38.737890 | 
+[ INFO ]         Sun 23. Feb 2025  11:31:38.842068 | You can now build the package
+[ INFO ]         Sun 23. Feb 2025  11:31:38.950178 | 
+[ INFO ]         Sun 23. Feb 2025  11:31:39.054362 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:31:40.559975 | Building package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Sun 23. Feb 2025  11:32:48.627052 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist' )
+[ INFO ]         Sun 23. Feb 2025  11:32:48.759606 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:32:48.869980 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build' )
+[ INFO ]         Sun 23. Feb 2025  11:32:48.995882 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:32:49.109975 | 
+[ INFO ]         Sun 23. Feb 2025  11:32:49.218030 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:32:49.321937 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:32:49.429988 | 
+[ INFO ]         Sun 23. Feb 2025  11:32:49.537945 | You can now build the package
+[ INFO ]         Sun 23. Feb 2025  11:32:49.645107 | 
+[ INFO ]         Sun 23. Feb 2025  11:32:49.749871 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:32:51.402293 | Building package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Sun 23. Feb 2025  11:33:55.516856 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist' )
+[ INFO ]         Sun 23. Feb 2025  11:33:55.666952 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:33:55.781926 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build' )
+[ INFO ]         Sun 23. Feb 2025  11:33:55.917291 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:33:56.025975 | 
+[ INFO ]         Sun 23. Feb 2025  11:33:56.133949 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:33:56.240075 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:33:56.345881 | 
+[ INFO ]         Sun 23. Feb 2025  11:33:56.449911 | You can now build the package
+[ INFO ]         Sun 23. Feb 2025  11:33:56.557922 | 
+[ INFO ]         Sun 23. Feb 2025  11:33:56.664801 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:33:58.007651 | Building package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Sun 23. Feb 2025  11:39:38.958346 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist' )
+[ INFO ]         Sun 23. Feb 2025  11:39:39.098563 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:39:39.210002 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build' )
+[ INFO ]         Sun 23. Feb 2025  11:39:39.335542 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:39:39.446048 | 
+[ INFO ]         Sun 23. Feb 2025  11:39:39.551932 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:39:39.658349 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:39:39.767521 | 
+[ INFO ]         Sun 23. Feb 2025  11:39:39.873958 | You can now build the package
+[ INFO ]         Sun 23. Feb 2025  11:39:39.982128 | 
+[ INFO ]         Sun 23. Feb 2025  11:39:40.086104 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:39:41.244937 | Building package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Sun 23. Feb 2025  11:40:22.720395 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist' )
+[ INFO ]         Sun 23. Feb 2025  11:40:22.859401 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:40:22.970015 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build' )
+[ INFO ]         Sun 23. Feb 2025  11:40:23.108681 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:40:23.248677 | 
+[ INFO ]         Sun 23. Feb 2025  11:40:23.352261 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:40:23.454016 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:40:23.557862 | 
+[ INFO ]         Sun 23. Feb 2025  11:40:23.661999 | You can now build the package
+[ INFO ]         Sun 23. Feb 2025  11:40:23.769992 | 
+[ INFO ]         Sun 23. Feb 2025  11:40:23.877996 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:40:23.985992 | Building package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Sun 23. Feb 2025  11:40:51.726539 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist' )
+[ INFO ]         Sun 23. Feb 2025  11:40:51.877350 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:40:51.994089 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build' )
+[ INFO ]         Sun 23. Feb 2025  11:40:52.134102 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:40:52.246014 | 
+[ INFO ]         Sun 23. Feb 2025  11:40:52.349887 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:40:52.454070 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:40:52.562241 | 
+[ INFO ]         Sun 23. Feb 2025  11:40:52.665843 | You can now build the package
+[ INFO ]         Sun 23. Feb 2025  11:40:52.769869 | 
+[ INFO ]         Sun 23. Feb 2025  11:40:52.873847 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:40:52.981896 | Building package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Sun 23. Feb 2025  11:45:05.148708 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/dist' )
+[ INFO ]         Sun 23. Feb 2025  11:45:05.296685 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:45:05.413987 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/build' )
+[ INFO ]         Sun 23. Feb 2025  11:45:05.554368 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:45:05.666239 | 
+[ INFO ]         Sun 23. Feb 2025  11:45:05.770643 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:45:05.877431 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:45:05.981866 | 
+[ INFO ]         Sun 23. Feb 2025  11:45:06.089880 | You can now build the package
+[ INFO ]         Sun 23. Feb 2025  11:45:06.195547 | 
+[ INFO ]         Sun 23. Feb 2025  11:45:06.302199 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:45:06.411101 | Building package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Sun 23. Feb 2025  11:47:45.117009 | 
+[ INFO ]         Sun 23. Feb 2025  11:47:45.221882 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:47:45.329871 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:47:45.437883 | 
+[ INFO ]         Sun 23. Feb 2025  11:47:45.546035 | You can now build the package
+[ INFO ]         Sun 23. Feb 2025  11:47:45.650269 | 
+[ INFO ]         Sun 23. Feb 2025  11:47:45.757877 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:47:45.865963 | Building package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Sun 23. Feb 2025  11:48:41.338680 | 
+[ INFO ]         Sun 23. Feb 2025  11:48:41.442043 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:48:41.549927 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:48:41.658149 | 
+[ INFO ]         Sun 23. Feb 2025  11:48:41.765995 | You can now build the package
+[ INFO ]         Sun 23. Feb 2025  11:48:41.874057 | 
+[ INFO ]         Sun 23. Feb 2025  11:48:41.981930 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:48:42.090059 | Building package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Sun 23. Feb 2025  11:49:16.074176 | 
+[ INFO ]         Sun 23. Feb 2025  11:49:16.181868 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:49:16.289867 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:49:16.393964 | 
+[ INFO ]         Sun 23. Feb 2025  11:49:16.497894 | You can now build the package
+[ INFO ]         Sun 23. Feb 2025  11:49:16.607061 | 
+[ INFO ]         Sun 23. Feb 2025  11:49:16.710084 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:49:16.818022 | Building package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Sun 23. Feb 2025  11:50:07.688660 | 
+[ INFO ]         Sun 23. Feb 2025  11:50:07.794044 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:50:07.901883 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:50:08.009877 | 
+[ INFO ]         Sun 23. Feb 2025  11:50:08.113943 | You can now build the package
+[ INFO ]         Sun 23. Feb 2025  11:50:08.221876 | 
+[ INFO ]         Sun 23. Feb 2025  11:50:08.329913 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:50:08.433907 | Building package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Sun 23. Feb 2025  11:51:01.996060 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/TCYTLib.egg-info ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/TCYTLib.egg-info' )
+[ INFO ]         Sun 23. Feb 2025  11:51:02.104874 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:51:02.205857 | 
+[ INFO ]         Sun 23. Feb 2025  11:51:02.309927 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:51:02.417837 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:51:02.521849 | 
+[ INFO ]         Sun 23. Feb 2025  11:51:02.629884 | You can now build the package
+[ INFO ]         Sun 23. Feb 2025  11:51:02.737851 | 
+[ INFO ]         Sun 23. Feb 2025  11:51:02.845882 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:51:02.949845 | Building package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Sun 23. Feb 2025  11:52:18.631917 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/TCYTLib.egg-info ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/TCYTLib.egg-info' )
+[ INFO ]         Sun 23. Feb 2025  11:52:18.740641 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:52:18.845979 | 
+[ INFO ]         Sun 23. Feb 2025  11:52:18.953881 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:52:19.057962 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:52:19.166000 | 
+[ INFO ]         Sun 23. Feb 2025  11:52:19.270023 | You can now build the package
+[ INFO ]         Sun 23. Feb 2025  11:52:19.373934 | 
+[ INFO ]         Sun 23. Feb 2025  11:52:19.481949 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:52:19.589873 | Building package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Sun 23. Feb 2025  11:53:01.879132 | Cleaning up: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/TCYTLib.egg-info ( CMD: 'rm -rf /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib/TCYTLib.egg-info' )
+[ INFO ]         Sun 23. Feb 2025  11:53:02.008822 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:53:02.114154 | 
+[ INFO ]         Sun 23. Feb 2025  11:53:02.222017 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:53:02.326578 | Cleaned up successfully
+[ INFO ]         Sun 23. Feb 2025  11:53:02.434016 | 
+[ INFO ]         Sun 23. Feb 2025  11:53:02.538163 | You can now build the package
+[ INFO ]         Sun 23. Feb 2025  11:53:02.646203 | 
+[ INFO ]         Sun 23. Feb 2025  11:53:02.754126 | --------------------
+[ INFO ]         Sun 23. Feb 2025  11:53:02.862423 | Building package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCYTLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Mon 24. Feb 2025  15:29:09.011935 | Cleaning up: E:/PythonTemplate-EDIT-main/TCPYLib\TCPYLib.egg-info ( CMD: 'rm -rf E:/PythonTemplate-EDIT-main/TCPYLib\TCPYLib.egg-info' )
+[ ERROR ]        Mon 24. Feb 2025  15:29:09.028081 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:29:09.034863 | Failed to clean up: E:/PythonTemplate-EDIT-main/TCPYLib\TCPYLib.egg-info
+[ ERROR ]        Mon 24. Feb 2025  15:29:09.041448 | Please clean up manually
+[ ERROR ]        Mon 24. Feb 2025  15:29:09.047768 | 
+[ ERROR ]        Mon 24. Feb 2025  15:29:09.054451 | --------------------
+[ CRITICAL ]     Mon 24. Feb 2025  15:29:09.060825 | Failed to clean up
+[ INFO ]         Mon 24. Feb 2025  15:30:16.275407 | Cleaning up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'rm -rf E:\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ ERROR ]        Mon 24. Feb 2025  15:30:16.286975 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:30:16.293997 | Failed to clean up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info
+[ ERROR ]        Mon 24. Feb 2025  15:30:16.300819 | Please clean up manually
+[ ERROR ]        Mon 24. Feb 2025  15:30:16.307633 | 
+[ ERROR ]        Mon 24. Feb 2025  15:30:16.314210 | --------------------
+[ CRITICAL ]     Mon 24. Feb 2025  15:30:16.321095 | Failed to clean up
+[ INFO ]         Mon 24. Feb 2025  15:31:38.380166 | Cleaning up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'rm -rf E:\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ ERROR ]        Mon 24. Feb 2025  15:31:38.391752 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:31:38.399058 | Failed to clean up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info
+[ ERROR ]        Mon 24. Feb 2025  15:31:38.405950 | Please clean up manually
+[ INFO ]         Mon 24. Feb 2025  15:31:38.412955 | 
+[ INFO ]         Mon 24. Feb 2025  15:31:38.419643 | --------------------
+[ INFO ]         Mon 24. Feb 2025  15:31:38.426342 | Cleaned up successfully
+[ INFO ]         Mon 24. Feb 2025  15:31:38.433350 | 
+[ INFO ]         Mon 24. Feb 2025  15:31:38.440065 | You can now build the package
+[ INFO ]         Mon 24. Feb 2025  15:31:38.446712 | 
+[ INFO ]         Mon 24. Feb 2025  15:31:38.453416 | --------------------
+[ INFO ]         Mon 24. Feb 2025  15:31:38.460101 | Copying package: E:\PythonTemplate-EDIT-main\lib to E:\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'cp -r E:\PythonTemplate-EDIT-main\lib E:\PythonTemplate-EDIT-main\TCPYLib' )
+[ INFO ]         Mon 24. Feb 2025  15:31:38.466432 | Deleting existing path: E:\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'rm -rf E:\PythonTemplate-EDIT-main\TCPYLib' )
+[ ERROR ]        Mon 24. Feb 2025  15:31:38.477054 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:31:38.483792 | Failed to delete existing path: E:\PythonTemplate-EDIT-main\TCPYLib
+[ ERROR ]        Mon 24. Feb 2025  15:31:38.490359 | Please delete manually
+[ ERROR ]        Mon 24. Feb 2025  15:31:38.497202 | 
+[ ERROR ]        Mon 24. Feb 2025  15:31:38.501988 | --------------------
+[ CRITICAL ]     Mon 24. Feb 2025  15:31:38.504153 | Failed to delete old package
+[ INFO ]         Mon 24. Feb 2025  15:37:41.590727 | Cleaning up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'del -rf E:\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ ERROR ]        Mon 24. Feb 2025  15:37:41.605798 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:37:41.611585 | Failed to clean up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info
+[ ERROR ]        Mon 24. Feb 2025  15:37:41.617734 | Please clean up manually
+[ ERROR ]        Mon 24. Feb 2025  15:37:41.624932 | 
+[ ERROR ]        Mon 24. Feb 2025  15:37:41.631141 | --------------------
+[ CRITICAL ]     Mon 24. Feb 2025  15:37:41.637726 | Failed to clean up
+[ INFO ]         Mon 24. Feb 2025  15:39:00.787788 | Cleaning up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'del -rf E:\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ ERROR ]        Mon 24. Feb 2025  15:39:00.802238 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:39:00.808963 | Failed to clean up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info
+[ ERROR ]        Mon 24. Feb 2025  15:39:00.815307 | Please clean up manually
+[ ERROR ]        Mon 24. Feb 2025  15:39:00.822156 | 
+[ ERROR ]        Mon 24. Feb 2025  15:39:00.828490 | --------------------
+[ CRITICAL ]     Mon 24. Feb 2025  15:39:00.835332 | Failed to clean up
+[ INFO ]         Mon 24. Feb 2025  15:39:34.709458 | Cleaning up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'del -rf E:\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ ERROR ]        Mon 24. Feb 2025  15:39:34.724551 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:39:34.736342 | Failed to clean up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info
+[ ERROR ]        Mon 24. Feb 2025  15:39:34.743226 | Please clean up manually
+[ ERROR ]        Mon 24. Feb 2025  15:39:34.750020 | 
+[ ERROR ]        Mon 24. Feb 2025  15:39:34.756852 | --------------------
+[ ERROR ]        Mon 24. Feb 2025  15:39:34.763508 | Failed to clean up
+[ INFO ]         Mon 24. Feb 2025  15:39:34.770305 | Copying package: E:\PythonTemplate-EDIT-main\lib to E:\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'cp -r E:\PythonTemplate-EDIT-main\lib E:\PythonTemplate-EDIT-main\TCPYLib' )
+[ INFO ]         Mon 24. Feb 2025  15:39:34.777213 | Deleting existing path: E:\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'del -rf E:\PythonTemplate-EDIT-main\TCPYLib' )
+[ ERROR ]        Mon 24. Feb 2025  15:39:34.788479 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:39:34.795366 | Failed to delete existing path: E:\PythonTemplate-EDIT-main\TCPYLib
+[ ERROR ]        Mon 24. Feb 2025  15:39:34.802577 | Please delete manually
+[ ERROR ]        Mon 24. Feb 2025  15:39:34.809374 | 
+[ ERROR ]        Mon 24. Feb 2025  15:39:34.816121 | --------------------
+[ CRITICAL ]     Mon 24. Feb 2025  15:39:34.823141 | Failed to delete old package
+[ INFO ]         Mon 24. Feb 2025  15:40:57.917782 | Cleaning up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'del -rf E:\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ ERROR ]        Mon 24. Feb 2025  15:40:57.930960 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:40:57.937711 | Failed to clean up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info
+[ ERROR ]        Mon 24. Feb 2025  15:40:57.944567 | Please clean up manually
+[ ERROR ]        Mon 24. Feb 2025  15:40:57.951472 | 
+[ ERROR ]        Mon 24. Feb 2025  15:40:57.958340 | --------------------
+[ ERROR ]        Mon 24. Feb 2025  15:40:57.965219 | Failed to clean up
+[ INFO ]         Mon 24. Feb 2025  15:40:57.972124 | Deleting existing path: E:\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'del -rf E:\PythonTemplate-EDIT-main\TCPYLib' )
+[ ERROR ]        Mon 24. Feb 2025  15:40:57.982557 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:40:57.987060 | Failed to delete existing path: E:\PythonTemplate-EDIT-main\TCPYLib
+[ ERROR ]        Mon 24. Feb 2025  15:40:57.989243 | Please delete manually
+[ ERROR ]        Mon 24. Feb 2025  15:40:57.991402 | 
+[ ERROR ]        Mon 24. Feb 2025  15:40:58.001753 | --------------------
+[ CRITICAL ]     Mon 24. Feb 2025  15:40:58.004662 | Failed to delete old package
+[ INFO ]         Mon 24. Feb 2025  15:42:06.882469 | Cleaning up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'del -rf E:\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ ERROR ]        Mon 24. Feb 2025  15:42:06.894022 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:42:06.901205 | Failed to clean up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info
+[ ERROR ]        Mon 24. Feb 2025  15:42:06.908314 | Please clean up manually
+[ ERROR ]        Mon 24. Feb 2025  15:42:06.916279 | 
+[ ERROR ]        Mon 24. Feb 2025  15:42:06.924164 | --------------------
+[ ERROR ]        Mon 24. Feb 2025  15:42:06.932580 | Failed to clean up
+[ INFO ]         Mon 24. Feb 2025  15:42:06.940082 | Deleting existing path: E:\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'del -rf E:\PythonTemplate-EDIT-main\TCPYLib' )
+[ ERROR ]        Mon 24. Feb 2025  15:42:06.950253 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:42:06.957384 | Failed to delete existing path: E:\PythonTemplate-EDIT-main\TCPYLib
+[ ERROR ]        Mon 24. Feb 2025  15:42:06.965052 | Please delete manually
+[ ERROR ]        Mon 24. Feb 2025  15:42:06.973500 | 
+[ ERROR ]        Mon 24. Feb 2025  15:42:06.987744 | --------------------
+[ CRITICAL ]     Mon 24. Feb 2025  15:42:06.994990 | Failed to delete old package
+[ INFO ]         Mon 24. Feb 2025  15:43:55.128890 | Cleaning up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'del -rf E:\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ ERROR ]        Mon 24. Feb 2025  15:43:55.146445 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:43:55.153248 | Failed to clean up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info
+[ ERROR ]        Mon 24. Feb 2025  15:43:55.159764 | Please clean up manually
+[ ERROR ]        Mon 24. Feb 2025  15:43:55.166611 | 
+[ ERROR ]        Mon 24. Feb 2025  15:43:55.173138 | --------------------
+[ ERROR ]        Mon 24. Feb 2025  15:43:55.179925 | Failed to clean up
+[ INFO ]         Mon 24. Feb 2025  15:43:55.186953 | Deleting existing path: E:\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'del -rf E:\PythonTemplate-EDIT-main\TCPYLib' )
+[ ERROR ]        Mon 24. Feb 2025  15:43:55.194072 | Error: [WinError 145] Das Verzeichnis ist nicht leer: 'E:\\PythonTemplate-EDIT-main\\TCPYLib'
+[ ERROR ]        Mon 24. Feb 2025  15:43:55.208391 | Failed to delete existing path: E:\PythonTemplate-EDIT-main\TCPYLib
+[ ERROR ]        Mon 24. Feb 2025  15:43:55.217387 | Please delete manually
+[ ERROR ]        Mon 24. Feb 2025  15:43:55.224176 | 
+[ ERROR ]        Mon 24. Feb 2025  15:43:55.230623 | --------------------
+[ CRITICAL ]     Mon 24. Feb 2025  15:43:55.237595 | Failed to delete old package
+[ INFO ]         Mon 24. Feb 2025  15:44:46.579465 | Cleaning up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'del -rf E:\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ ERROR ]        Mon 24. Feb 2025  15:44:46.590991 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:44:46.600802 | Failed to clean up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info
+[ ERROR ]        Mon 24. Feb 2025  15:44:46.607786 | Please clean up manually
+[ ERROR ]        Mon 24. Feb 2025  15:44:46.614676 | 
+[ ERROR ]        Mon 24. Feb 2025  15:44:46.621598 | --------------------
+[ ERROR ]        Mon 24. Feb 2025  15:44:46.628603 | Failed to clean up
+[ INFO ]         Mon 24. Feb 2025  15:44:46.635649 | Deleting existing path: E:\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'del -rf E:\PythonTemplate-EDIT-main\TCPYLib' )
+[ INFO ]         Mon 24. Feb 2025  15:44:47.270549 | Deleted existing path successfully
+[ INFO ]         Mon 24. Feb 2025  15:44:47.354313 | Copying package: E:\PythonTemplate-EDIT-main\lib to E:\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'cp -r E:\PythonTemplate-EDIT-main\lib E:\PythonTemplate-EDIT-main\TCPYLib' )
+[ ERROR ]        Mon 24. Feb 2025  15:44:47.366419 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:44:47.374051 | Failed to copy package: E:\PythonTemplate-EDIT-main\lib to E:\PythonTemplate-EDIT-main\TCPYLib
+[ ERROR ]        Mon 24. Feb 2025  15:44:47.381401 | Please copy manually
+[ ERROR ]        Mon 24. Feb 2025  15:44:47.388609 | 
+[ ERROR ]        Mon 24. Feb 2025  15:44:47.395739 | --------------------
+[ CRITICAL ]     Mon 24. Feb 2025  15:44:47.402925 | Failed to copy package
+[ INFO ]         Mon 24. Feb 2025  15:46:50.279505 | Cleaning up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'del -rf E:\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ ERROR ]        Mon 24. Feb 2025  15:46:50.290365 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:46:50.301155 | Failed to clean up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info
+[ ERROR ]        Mon 24. Feb 2025  15:46:50.310726 | Please clean up manually
+[ ERROR ]        Mon 24. Feb 2025  15:46:50.317519 | 
+[ ERROR ]        Mon 24. Feb 2025  15:46:50.324381 | --------------------
+[ ERROR ]        Mon 24. Feb 2025  15:46:50.331260 | Failed to clean up
+[ INFO ]         Mon 24. Feb 2025  15:46:50.337961 | Deleting existing path: E:\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'del -rf E:\PythonTemplate-EDIT-main\TCPYLib' )
+[ INFO ]         Mon 24. Feb 2025  15:46:50.356081 | Deleted existing path successfully
+[ INFO ]         Mon 24. Feb 2025  15:46:50.615842 | Copying package: E:\PythonTemplate-EDIT-main\lib to E:\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'cp -r E:\PythonTemplate-EDIT-main\lib E:\PythonTemplate-EDIT-main\TCPYLib' )
+[ ERROR ]        Mon 24. Feb 2025  15:46:50.633814 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:46:50.642690 | Failed to copy package: E:\PythonTemplate-EDIT-main\lib to E:\PythonTemplate-EDIT-main\TCPYLib
+[ ERROR ]        Mon 24. Feb 2025  15:46:50.649443 | Please copy manually
+[ ERROR ]        Mon 24. Feb 2025  15:46:50.656666 | 
+[ ERROR ]        Mon 24. Feb 2025  15:46:50.663272 | --------------------
+[ CRITICAL ]     Mon 24. Feb 2025  15:46:50.670500 | Failed to copy package
+[ INFO ]         Mon 24. Feb 2025  15:47:15.498139 | Cleaning up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'del -rf E:\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ ERROR ]        Mon 24. Feb 2025  15:47:15.517954 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:47:15.524650 | Failed to clean up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info
+[ ERROR ]        Mon 24. Feb 2025  15:47:15.531515 | Please clean up manually
+[ ERROR ]        Mon 24. Feb 2025  15:47:15.538469 | 
+[ ERROR ]        Mon 24. Feb 2025  15:47:15.545904 | --------------------
+[ ERROR ]        Mon 24. Feb 2025  15:47:15.552630 | Failed to clean up
+[ INFO ]         Mon 24. Feb 2025  15:47:15.559852 | Deleting existing path: E:\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'del -rf E:\PythonTemplate-EDIT-main\TCPYLib' )
+[ INFO ]         Mon 24. Feb 2025  15:47:15.687615 | Deleted existing path successfully
+[ INFO ]         Mon 24. Feb 2025  15:47:15.955191 | Copying package: E:\PythonTemplate-EDIT-main\lib to E:\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'cp -r E:\PythonTemplate-EDIT-main\lib E:\PythonTemplate-EDIT-main\TCPYLib' )
+[ ERROR ]        Mon 24. Feb 2025  15:47:15.970378 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:47:15.980094 | Failed to copy package: E:\PythonTemplate-EDIT-main\lib to E:\PythonTemplate-EDIT-main\TCPYLib
+[ ERROR ]        Mon 24. Feb 2025  15:47:15.985024 | Please copy manually
+[ ERROR ]        Mon 24. Feb 2025  15:47:15.987742 | 
+[ ERROR ]        Mon 24. Feb 2025  15:47:15.990244 | --------------------
+[ CRITICAL ]     Mon 24. Feb 2025  15:47:15.993940 | Failed to copy package
+[ INFO ]         Mon 24. Feb 2025  15:48:12.366763 | Cleaning up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'del -rf E:\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ ERROR ]        Mon 24. Feb 2025  15:48:12.379611 | Error: [WinError 2] Das System kann die angegebene Datei nicht finden
+[ ERROR ]        Mon 24. Feb 2025  15:48:12.386605 | Failed to clean up: E:\PythonTemplate-EDIT-main\TCPYLib.egg-info
+[ ERROR ]        Mon 24. Feb 2025  15:48:12.401270 | Please clean up manually
+[ ERROR ]        Mon 24. Feb 2025  15:48:12.408082 | 
+[ ERROR ]        Mon 24. Feb 2025  15:48:12.414685 | --------------------
+[ ERROR ]        Mon 24. Feb 2025  15:48:12.421515 | Failed to clean up
+[ INFO ]         Mon 24. Feb 2025  15:48:12.428209 | Building package: E:\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Fri 28. Feb 2025  21:13:05.982819 | Cleaning up: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main.egg-info ( CMD: 'rm -rf \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main.egg-info' )
+[ INFO ]         Fri 28. Feb 2025  21:13:06.095034 | Cleaned up successfully
+[ INFO ]         Fri 28. Feb 2025  21:13:06.196845 | Building package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ ERROR ]        Fri 28. Feb 2025  21:13:06.308872 | Error: [Errno 2] No such file or directory: '\\media\\Alexander\\0BEA-0E12\\PythonTemplate-EDIT-main'
+[ ERROR ]        Fri 28. Feb 2025  21:13:06.413249 | Failed to build package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main
+[ ERROR ]        Fri 28. Feb 2025  21:13:06.517257 | Please build manually
+[ ERROR ]        Fri 28. Feb 2025  21:13:06.620938 | 
+[ ERROR ]        Fri 28. Feb 2025  21:13:06.725140 | --------------------
+[ CRITICAL ]     Fri 28. Feb 2025  21:13:06.832787 | Failed to build package
+[ INFO ]         Fri 28. Feb 2025  21:13:52.769778 | Cleaning up: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main.egg-info ( CMD: 'rm -rf \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main.egg-info' )
+[ INFO ]         Fri 28. Feb 2025  21:13:52.879029 | Cleaned up successfully
+[ INFO ]         Fri 28. Feb 2025  21:13:52.980818 | Copying package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main to \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main ( CMD: 'cp -r \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main' )
+[ INFO ]         Fri 28. Feb 2025  21:13:53.088168 | Copied package successfully
+[ INFO ]         Fri 28. Feb 2025  21:13:53.192737 | 
+[ INFO ]         Fri 28. Feb 2025  21:13:53.296720 | --------------------
+[ INFO ]         Fri 28. Feb 2025  21:13:53.400738 | Copied package successfully
+[ INFO ]         Fri 28. Feb 2025  21:13:53.504747 | 
+[ INFO ]         Fri 28. Feb 2025  21:13:53.612722 | You can now build the package
+[ INFO ]         Fri 28. Feb 2025  21:13:53.716719 | 
+[ INFO ]         Fri 28. Feb 2025  21:13:53.821312 | --------------------
+[ INFO ]         Fri 28. Feb 2025  21:13:53.924736 | Building package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ ERROR ]        Fri 28. Feb 2025  21:13:54.028830 | Error: [Errno 2] No such file or directory: '\\media\\Alexander\\0BEA-0E12\\PythonTemplate-EDIT-main'
+[ ERROR ]        Fri 28. Feb 2025  21:13:54.132779 | Failed to build package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main
+[ ERROR ]        Fri 28. Feb 2025  21:13:54.236726 | Please build manually
+[ ERROR ]        Fri 28. Feb 2025  21:13:54.340745 | 
+[ ERROR ]        Fri 28. Feb 2025  21:13:54.444759 | --------------------
+[ CRITICAL ]     Fri 28. Feb 2025  21:13:54.549211 | Failed to build package
+[ INFO ]         Fri 28. Feb 2025  21:16:20.269589 | Cleaning up: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main.egg-info ( CMD: 'rm -rf \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main.egg-info' )
+[ INFO ]         Fri 28. Feb 2025  21:16:20.378149 | Cleaned up successfully
+[ INFO ]         Fri 28. Feb 2025  21:16:20.480811 | Copying package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main to \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main ( CMD: 'cp -r \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main' )
+[ INFO ]         Fri 28. Feb 2025  21:16:20.588179 | Copied package successfully
+[ INFO ]         Fri 28. Feb 2025  21:16:20.692736 | 
+[ INFO ]         Fri 28. Feb 2025  21:16:20.796730 | --------------------
+[ INFO ]         Fri 28. Feb 2025  21:16:20.900780 | Copied package successfully
+[ INFO ]         Fri 28. Feb 2025  21:16:21.004792 | 
+[ INFO ]         Fri 28. Feb 2025  21:16:21.108765 | You can now build the package
+[ INFO ]         Fri 28. Feb 2025  21:16:21.212709 | 
+[ INFO ]         Fri 28. Feb 2025  21:16:21.316779 | --------------------
+[ INFO ]         Fri 28. Feb 2025  21:16:21.420742 | Building package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Fri 28. Feb 2025  21:16:21.609639 | Built package successfully
+[ INFO ]         Fri 28. Feb 2025  21:16:21.712712 | 
+[ INFO ]         Fri 28. Feb 2025  21:16:21.816860 | --------------------
+[ INFO ]         Fri 28. Feb 2025  21:16:21.921359 | Built package successfully
+[ INFO ]         Fri 28. Feb 2025  21:16:22.024860 | 
+[ INFO ]         Fri 28. Feb 2025  21:16:22.129059 | You can now upload the package to PyPI
+[ INFO ]         Fri 28. Feb 2025  21:16:22.232824 | 
+[ INFO ]         Fri 28. Feb 2025  21:16:22.337268 | --------------------
+[ INFO ]         Fri 28. Feb 2025  21:16:22.441675 | Uploading package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main ( CMD: 'twine upload dist/*' )
+[ ERROR ]        Fri 28. Feb 2025  21:16:22.544979 | Error: [Errno 2] No such file or directory: '\\media\\Alexander\\0BEA-0E12\\PythonTemplate-EDIT-main'
+[ ERROR ]        Fri 28. Feb 2025  21:16:22.651406 | Failed to upload package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main
+[ ERROR ]        Fri 28. Feb 2025  21:16:22.757081 | Please upload manually
+[ ERROR ]        Fri 28. Feb 2025  21:16:22.860914 | 
+[ ERROR ]        Fri 28. Feb 2025  21:16:22.964902 | --------------------
+[ CRITICAL ]     Fri 28. Feb 2025  21:16:23.069020 | Failed to upload package
+[ INFO ]         Fri 28. Feb 2025  21:16:50.171266 | Cleaning up: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main.egg-info ( CMD: 'rm -rf \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main.egg-info' )
+[ INFO ]         Fri 28. Feb 2025  21:16:50.277589 | Cleaned up successfully
+[ INFO ]         Fri 28. Feb 2025  21:16:50.380892 | Copying package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main to \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main ( CMD: 'cp -r \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main' )
+[ INFO ]         Fri 28. Feb 2025  21:16:50.488232 | Copied package successfully
+[ INFO ]         Fri 28. Feb 2025  21:16:50.592809 | 
+[ INFO ]         Fri 28. Feb 2025  21:16:50.696733 | --------------------
+[ INFO ]         Fri 28. Feb 2025  21:16:50.800736 | Copied package successfully
+[ INFO ]         Fri 28. Feb 2025  21:16:50.904742 | 
+[ INFO ]         Fri 28. Feb 2025  21:16:51.009163 | You can now build the package
+[ INFO ]         Fri 28. Feb 2025  21:16:51.113159 | 
+[ INFO ]         Fri 28. Feb 2025  21:16:51.216773 | --------------------
+[ INFO ]         Fri 28. Feb 2025  21:16:51.320781 | Building package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Fri 28. Feb 2025  21:16:51.509731 | Built package successfully
+[ INFO ]         Fri 28. Feb 2025  21:16:51.612738 | 
+[ INFO ]         Fri 28. Feb 2025  21:16:51.716774 | --------------------
+[ INFO ]         Fri 28. Feb 2025  21:16:51.820785 | Built package successfully
+[ INFO ]         Fri 28. Feb 2025  21:16:51.957122 | 
+[ INFO ]         Fri 28. Feb 2025  21:16:52.064728 | You can now upload the package to PyPI
+[ INFO ]         Fri 28. Feb 2025  21:16:52.169093 | 
+[ INFO ]         Fri 28. Feb 2025  21:16:52.272938 | --------------------
+[ INFO ]         Fri 28. Feb 2025  21:16:52.376788 | Uploading package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main ( CMD: 'twine upload dist/*' )
+[ ERROR ]        Fri 28. Feb 2025  21:16:52.480749 | Error: name 'pathreplace' is not defined
+[ ERROR ]        Fri 28. Feb 2025  21:16:52.584822 | Failed to upload package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main
+[ ERROR ]        Fri 28. Feb 2025  21:16:52.693415 | Please upload manually
+[ ERROR ]        Fri 28. Feb 2025  21:16:52.797329 | 
+[ ERROR ]        Fri 28. Feb 2025  21:16:52.905095 | --------------------
+[ CRITICAL ]     Fri 28. Feb 2025  21:16:53.008793 | Failed to upload package
+[ INFO ]         Fri 28. Feb 2025  21:17:13.499922 | Cleaning up: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main.egg-info ( CMD: 'rm -rf \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main.egg-info' )
+[ INFO ]         Fri 28. Feb 2025  21:17:13.604510 | Cleaned up successfully
+[ INFO ]         Fri 28. Feb 2025  21:17:13.708812 | Copying package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main to \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main ( CMD: 'cp -r \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main' )
+[ INFO ]         Fri 28. Feb 2025  21:17:13.816273 | Copied package successfully
+[ INFO ]         Fri 28. Feb 2025  21:17:13.920727 | 
+[ INFO ]         Fri 28. Feb 2025  21:17:14.024735 | --------------------
+[ INFO ]         Fri 28. Feb 2025  21:17:14.128741 | Copied package successfully
+[ INFO ]         Fri 28. Feb 2025  21:17:14.232742 | 
+[ INFO ]         Fri 28. Feb 2025  21:17:14.336720 | You can now build the package
+[ INFO ]         Fri 28. Feb 2025  21:17:14.440725 | 
+[ INFO ]         Fri 28. Feb 2025  21:17:14.545854 | --------------------
+[ INFO ]         Fri 28. Feb 2025  21:17:14.652724 | Building package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Fri 28. Feb 2025  21:17:14.847170 | Built package successfully
+[ INFO ]         Fri 28. Feb 2025  21:17:14.948712 | 
+[ INFO ]         Fri 28. Feb 2025  21:17:15.056787 | --------------------
+[ INFO ]         Fri 28. Feb 2025  21:17:15.160726 | Built package successfully
+[ INFO ]         Fri 28. Feb 2025  21:17:15.264722 | 
+[ INFO ]         Fri 28. Feb 2025  21:17:15.369146 | You can now upload the package to PyPI
+[ INFO ]         Fri 28. Feb 2025  21:17:15.476715 | 
+[ INFO ]         Fri 28. Feb 2025  21:17:15.580803 | --------------------
+[ INFO ]         Fri 28. Feb 2025  21:17:15.688738 | Uploading package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main ( CMD: 'twine upload dist/*' )
+[ INFO ]         Fri 28. Feb 2025  21:17:17.233059 | 
+[ INFO ]         Fri 28. Feb 2025  21:17:17.336787 | --------------------
+[ INFO ]         Fri 28. Feb 2025  21:17:17.441130 | Uploaded package successfully
+[ INFO ]         Fri 28. Feb 2025  21:17:17.544774 | 
+[ INFO ]         Fri 28. Feb 2025  21:17:17.648718 | You can now install the package
+[ INFO ]         Fri 28. Feb 2025  21:17:17.753052 | 
+[ INFO ]         Fri 28. Feb 2025  21:17:17.856750 | --------------------
+[ INFO ]         Fri 28. Feb 2025  21:17:17.964839 | Cleaning up: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main.egg-info ( CMD: 'rm -rf \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main.egg-info' )
+[ INFO ]         Fri 28. Feb 2025  21:17:18.070831 | Cleaned up successfully
