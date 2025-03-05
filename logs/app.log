@@ -682,3 +682,104 @@
 [ INFO ]         Tue 04. Mar 2025  21:55:23.399101 | Converting '1' from 'str' to 'int'
 [ INFO ]         Tue 04. Mar 2025  21:55:37.292583 | Converting 'None' from 'str' to 'int'
 [ INFO ]         Tue 04. Mar 2025  21:55:51.220250 | Converting 'aggdgs' from 'str' to 'None'
+[ DEBUG ]        Wed 05. Mar 2025  14:53:11.534229 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  14:56:57.838554 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  14:57:33.511012 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  14:58:21.415863 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  15:00:06.813396 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  15:00:26.364596 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  15:13:24.361200 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  15:14:29.576253 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  15:29:10.879242 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  15:31:19.913793 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  15:34:53.768362 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  15:36:14.603743 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  16:09:10.877169 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  16:09:47.403127 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  16:10:05.166025 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  16:10:59.549306 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  16:11:53.292702 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  16:17:30.394622 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  16:18:40.829642 | Opening Login Window with 'customtkinter - CTk'
+[ INFO ]         Wed 05. Mar 2025  16:18:45.586187 | Trying to login with username: alexander and password: 
+[ DEBUG ]        Wed 05. Mar 2025  16:20:05.490088 | Opening Login Window with 'customtkinter - CTk'
+[ INFO ]         Wed 05. Mar 2025  16:20:11.246779 | Trying to login with username: alexander and password: 
+[ WARN ]         Wed 05. Mar 2025  16:20:11.462954 | User alexander not found in the database.
+[ INFO ]         Wed 05. Mar 2025  16:20:23.693896 | Trying to login with username: alexander and password: ******
+[ WARN ]         Wed 05. Mar 2025  16:20:23.898612 | User alexander not found in the database.
+[ INFO ]         Wed 05. Mar 2025  16:20:31.951216 | Trying to login with username: laura and password: *****
+[ INFO ]         Wed 05. Mar 2025  16:20:32.162689 | User laura found in the database.
+[ DEBUG ]        Wed 05. Mar 2025  16:23:32.952879 | Opening Login Window with 'customtkinter - CTk'
+[ INFO ]         Wed 05. Mar 2025  16:23:43.850817 | Trying to login with username:  and password: 
+[ WARN ]         Wed 05. Mar 2025  16:23:44.063301 | User  not found in the database.
+[ DEBUG ]        Wed 05. Mar 2025  16:24:16.683714 | Opening Login Window with 'customtkinter - CTk'
+[ INFO ]         Wed 05. Mar 2025  16:24:19.549876 | Trying to login with username:  and password: 
+[ WARN ]         Wed 05. Mar 2025  16:24:19.766628 | User  not found in the database.
+[ INFO ]         Wed 05. Mar 2025  16:24:32.433922 | Trying to login with username: alexander and password: 
+[ WARN ]         Wed 05. Mar 2025  16:24:32.642749 | User alexander not found in the database.
+[ INFO ]         Wed 05. Mar 2025  16:24:42.146332 | Trying to login with username: laura and password: *****
+[ INFO ]         Wed 05. Mar 2025  16:24:42.252605 | User laura found in the database.
+[ INFO ]         Wed 05. Mar 2025  16:24:42.354878 | Password is correct.
+[ DEBUG ]        Wed 05. Mar 2025  16:26:58.650341 | Opening Login Window with 'customtkinter - CTk'
+[ INFO ]         Wed 05. Mar 2025  16:27:00.899668 | Trying to login with username:  and password: 
+[ WARN ]         Wed 05. Mar 2025  16:27:01.006644 | Username is empty.
+[ INFO ]         Wed 05. Mar 2025  16:27:17.317762 | Trying to login with username: alexander and password: 
+[ WARN ]         Wed 05. Mar 2025  16:27:17.418868 | Password is empty.
+[ INFO ]         Wed 05. Mar 2025  16:27:25.128230 | Trying to login with username: alexander and password: *******
+[ WARN ]         Wed 05. Mar 2025  16:27:25.342962 | User alexander not found in the database.
+[ INFO ]         Wed 05. Mar 2025  16:27:35.585374 | Trying to login with username: laura and password: ******
+[ INFO ]         Wed 05. Mar 2025  16:27:35.708104 | User laura found in the database.
+[ WARN ]         Wed 05. Mar 2025  16:27:35.810911 | Password is incorrect.
+[ INFO ]         Wed 05. Mar 2025  16:27:40.570669 | Trying to login with username: laura and password: *****
+[ INFO ]         Wed 05. Mar 2025  16:27:40.676030 | User laura found in the database.
+[ INFO ]         Wed 05. Mar 2025  16:27:40.778731 | Password is correct.
+[ DEBUG ]        Wed 05. Mar 2025  16:28:09.263392 | Opening Login Window with 'customtkinter - CTk'
+[ INFO ]         Wed 05. Mar 2025  16:28:10.525147 | Trying to login with username:  and password: 
+[ WARN ]         Wed 05. Mar 2025  16:28:10.634632 | Username is empty.
+[ DEBUG ]        Wed 05. Mar 2025  16:32:59.302586 | Opening Login Window with 'customtkinter - CTk'
+[ INFO ]         Wed 05. Mar 2025  16:33:01.527605 | Trying to login with username:  and password: 
+[ WARN ]         Wed 05. Mar 2025  16:33:01.638633 | Username is empty.
+[ WARN ]         Wed 05. Mar 2025  16:33:01.743173 | Password is empty.
+[ WARN ]         Wed 05. Mar 2025  16:33:01.950634 | User  not found in the database.
+[ DEBUG ]        Wed 05. Mar 2025  16:34:08.654563 | Opening Login Window with 'customtkinter - CTk'
+[ INFO ]         Wed 05. Mar 2025  16:34:14.542567 | Trying to login with username:  and password: 
+[ WARN ]         Wed 05. Mar 2025  16:34:14.646640 | Username is empty.
+[ WARN ]         Wed 05. Mar 2025  16:34:14.751205 | Password is empty.
+[ WARN ]         Wed 05. Mar 2025  16:34:14.958612 | User  not found in the database.
+[ DEBUG ]        Wed 05. Mar 2025  16:34:54.244785 | Opening Login Window with 'customtkinter - CTk'
+[ INFO ]         Wed 05. Mar 2025  16:34:56.691969 | Trying to login with username:  and password: 
+[ WARN ]         Wed 05. Mar 2025  16:34:56.802643 | Username is empty.
+[ INFO ]         Wed 05. Mar 2025  16:35:02.359072 | Trying to login with username: alexander and password: 
+[ WARN ]         Wed 05. Mar 2025  16:35:02.463042 | Password is empty.
+[ INFO ]         Wed 05. Mar 2025  16:35:06.533336 | Trying to login with username: alexander and password: **
+[ WARN ]         Wed 05. Mar 2025  16:35:06.738621 | User alexander not found in the database.
+[ INFO ]         Wed 05. Mar 2025  16:35:16.027372 | Trying to login with username: laura and password: 
+[ WARN ]         Wed 05. Mar 2025  16:35:16.130739 | Password is empty.
+[ INFO ]         Wed 05. Mar 2025  16:35:19.352759 | Trying to login with username: laura and password: *******
+[ INFO ]         Wed 05. Mar 2025  16:35:19.456463 | User laura found in the database.
+[ WARN ]         Wed 05. Mar 2025  16:35:19.558890 | Password is incorrect.
+[ INFO ]         Wed 05. Mar 2025  16:35:26.344008 | Trying to login with username: laura and password: *****
+[ INFO ]         Wed 05. Mar 2025  16:35:26.447356 | User laura found in the database.
+[ INFO ]         Wed 05. Mar 2025  16:35:26.550583 | Password is correct.
+[ DEBUG ]        Wed 05. Mar 2025  16:37:19.623630 | Opening Login Window with 'customtkinter - CTk'
+[ INFO ]         Wed 05. Mar 2025  16:37:21.639679 | Trying to login with username:  and password: 
+[ WARN ]         Wed 05. Mar 2025  16:37:21.750699 | Username is empty.
+[ INFO ]         Wed 05. Mar 2025  16:37:26.634143 | Trying to login with username: laura and password: *****
+[ INFO ]         Wed 05. Mar 2025  16:37:26.741247 | User laura found in the database.
+[ INFO ]         Wed 05. Mar 2025  16:37:26.846964 | Password is correct.
+[ DEBUG ]        Wed 05. Mar 2025  17:58:06.837928 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  17:58:07.054806 | Opening Register Window with 'customtkinter - CTk'
+[ INFO ]         Wed 05. Mar 2025  17:58:21.960905 | Trying to register with username:  and password: 
+[ WARN ]         Wed 05. Mar 2025  17:58:22.062621 | Username is empty.
+[ INFO ]         Wed 05. Mar 2025  17:58:31.195398 | Trying to register with username: alexander and password: 
+[ WARN ]         Wed 05. Mar 2025  17:58:31.299015 | Password is empty.
+[ INFO ]         Wed 05. Mar 2025  17:58:41.787489 | Trying to register with username: alexander and password: ********
+[ INFO ]         Wed 05. Mar 2025  17:58:42.036670 | User alexander registered successfully.
+[ INFO ]         Wed 05. Mar 2025  18:49:45.068116 | Trying to login with username: alexander and password: ********
+[ INFO ]         Wed 05. Mar 2025  18:49:45.274786 | User alexander found in the database.
+[ WARN ]         Wed 05. Mar 2025  18:49:45.378848 | Password is incorrect.
+[ INFO ]         Wed 05. Mar 2025  18:50:03.310894 | Trying to login with username: alexander and password: ********
+[ INFO ]         Wed 05. Mar 2025  18:50:03.518945 | User alexander found in the database.
+[ WARN ]         Wed 05. Mar 2025  18:50:03.622714 | Password is incorrect.
+[ DEBUG ]        Wed 05. Mar 2025  18:59:26.422117 | Opening Login Window with 'customtkinter - CTk'
+[ DEBUG ]        Wed 05. Mar 2025  18:59:26.527380 | Opening Register Window with 'customtkinter - CTk'

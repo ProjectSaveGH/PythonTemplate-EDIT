@@ -1,8 +1,38 @@
-from lib.database.database import *
+from lib.gui.login import open_login
+from lib.gui.register import open_register
+import sqlite3
 
-conn = create_connection("test.db")
-create_table(conn, "CREATE TABLE IF NOT EXISTS test (id INTEGER PRIMARY KEY, name TEXT NOT NULL)")
-execute_query(conn, "INSERT INTO test (name) VALUES (?)", ("test",))
-print(fetch_all(conn, "SELECT * FROM test"))
-delete_table(conn, "test")
-close_connection(conn)
+def create_database():
+    conn = sqlite3.connect('users.db')
+    cursor = conn.cursor()
+    
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS users (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            username TEXT NOT NULL UNIQUE,
+            password TEXT NOT NULL
+        )
+    ''')
+    
+    cursor.execute('''
+        INSERT INTO users (username, password) VALUES (?, ?)
+    ''', ('laura', 'laura'))
+    
+    conn.commit()
+    conn.close()
+
+create_database()
+
+open_register(
+    "My App", 
+    "300x300", 
+    "users.db", 
+    #bg_image="/home/Alexander/Downloads/bg.webp"
+    )
+
+open_login(
+    "My App", 
+    "300x300", 
+    "users.db", 
+    #bg_image="/home/Alexander/Downloads/bg.webp"
+    )
