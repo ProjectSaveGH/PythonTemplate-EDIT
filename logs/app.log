@@ -783,3 +783,18 @@
 [ WARN ]         Wed 05. Mar 2025  18:50:03.622714 | Password is incorrect.
 [ DEBUG ]        Wed 05. Mar 2025  18:59:26.422117 | Opening Login Window with 'customtkinter - CTk'
 [ DEBUG ]        Wed 05. Mar 2025  18:59:26.527380 | Opening Register Window with 'customtkinter - CTk'
+[ INFO ]         Thu 06. Mar 2025  03:30:26.606087 | Adding argument: --clean_pycache, help: Cleans every PyCache in this folder, default: None, action: store_true, required: False
+[ INFO ]         Thu 06. Mar 2025  03:30:26.718853 | Parsing arguments
+[ INFO ]         Thu 06. Mar 2025  03:30:26.823119 | Arguments parsed: Namespace(clean_pycache=True, debug=False)
+[ INFO ]         Thu 06. Mar 2025  03:30:26.926653 | Bereinige __pycache__-Ordner im Verzeichnis: .
+[ INFO ]         Thu 06. Mar 2025  03:30:27.051821 | Gelöscht: ./__pycache__
+[ INFO ]         Thu 06. Mar 2025  03:30:27.200067 | Gelöscht: ./lib/__pycache__
+[ INFO ]         Thu 06. Mar 2025  03:30:27.335175 | Gelöscht: ./lib/cli/__pycache__
+[ INFO ]         Thu 06. Mar 2025  03:30:27.472804 | Gelöscht: ./lib/config/__pycache__
+[ INFO ]         Thu 06. Mar 2025  03:30:27.640931 | Gelöscht: ./lib/logger/__pycache__
+[ INFO ]         Thu 06. Mar 2025  03:30:27.788984 | Gelöscht: ./lib/startup/__pycache__
+[ INFO ]         Thu 06. Mar 2025  03:30:27.912276 | Gelöscht: ./lib/utils/__pycache__
+[ INFO ]         Thu 06. Mar 2025  03:30:28.038622 | Gelöscht: ./lib/database/__pycache__
+[ INFO ]         Thu 06. Mar 2025  03:30:28.173177 | Gelöscht: ./lib/moduleExtension/__pycache__
+[ INFO ]         Thu 06. Mar 2025  03:30:28.305107 | Gelöscht: ./lib/gui/__pycache__
+[ INFO ]         Thu 06. Mar 2025  03:30:28.430589 | Gelöscht: ./tests/__pycache__
