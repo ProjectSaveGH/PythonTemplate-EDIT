@@ -1,0 +1,15 @@
+{
+    "settings": {
+        "name": "My App",
+        "version": "1.1.0",
+        "theme": "dark",
+        "%bool%active": "true"
+    },
+    "selection": {
+        "theme": [
+            "light",
+            "dark",
+            "system"
+        ]
+    }
+}
