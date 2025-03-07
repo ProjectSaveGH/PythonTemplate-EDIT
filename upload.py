@@ -132,6 +132,9 @@ def copy(path_old: str, path_new: str, SHOW: bool = False) -> None:
                 if not os.path.exists(os.path.join(path_new, name)):
                     os.makedirs(os.path.join(path_new, name))
                     
+        path_old = path_old.replace('\\', '/')
+        path_new = path_new.replace('\\', '/')
+
         l.info(f'Copying package: {path_old} to {path_new} ( CMD: \'cp -r {path_old} {path_new}\' )')
         subprocess.run(['cp', '-rfv', path_old, path_new], capture_output=SHOW)
         l.info('Copied package successfully')
@@ -213,6 +216,10 @@ def upload(path: str, SHOW: bool = False) -> None:
         l.info('')
         l.info('-' * 20)
 
+
+def p():
+    input("")
+
 if __name__ == '__main__':
     root = tk.Tk()
     root.withdraw()  # Hide the root window
@@ -223,13 +230,13 @@ if __name__ == '__main__':
     os.system('cls' if os.name == 'nt' else 'clear')
     if dict:
         clearup(dict, show, False)
-        #input('\n\nPress Enter to continue...\n\n')
+        input('\n\nPress Enter to continue...\n\n')
         copy(dict_old, dict, show)
-        #input('\n\nPress Enter to continue...\n\n')
-        build(dict, show)
-        #input('\n\nPress Enter to continue...\n\n')
-        upload(dict, show)
-        #input('\n\nPress Enter to exit...')
+        input('\n\nPress Enter to continue...\n\n')
+        build(f'{dict}/lib', show)
+        input('\n\nPress Enter to continue...\n\n')
+        upload(f"{dict}/lib", show)
+        input('\n\nPress Enter to exit...')
         clearup(dict, show, False)
     else:
         l.error('No directory selected')

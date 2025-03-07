@@ -2,12 +2,14 @@ from setuptools import setup, find_packages
 
 setup(
     name='TCPYLib',
-    version='0.2.1',
+    version='0.3.0',
     packages=find_packages(),
     install_requires=[
         "requests", #==2.26.0
-        "asciimatics", #==1.12.0
-        "rich" #==10.12.0
+        "asciimatics", #==1.13.0
+        "rich", #==10.12.0
+        "pillow", #==8.4.0
+        "customtkinter", #==4.6.3 
     ],
     author='Alexander Schwarz',
     author_email='alexanderschwarz148@gmail.com',

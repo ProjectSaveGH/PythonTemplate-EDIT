@@ -1,4 +1,4 @@
-    [ INFO ]         Thu 20. Feb 2025  15:30:12.304059 | Adding argument: --clean_pycache, help: Cleans every PyCache in this folder, default: None, action: store_true, required: False
+[ INFO ]         Thu 20. Feb 2025  15:30:12.304059 | Adding argument: --clean_pycache, help: Cleans every PyCache in this folder, default: None, action: store_true, required: False
 [ INFO ]         Thu 20. Feb 2025  15:30:12.309878 | Parsing arguments
 [ INFO ]         Thu 20. Feb 2025  15:30:28.252846 | Adding argument: --clean_pycache, help: Cleans every PyCache in this folder, default: None, action: store_true, required: False
 [ INFO ]         Thu 20. Feb 2025  15:30:28.260072 | Parsing arguments
@@ -825,3 +825,113 @@
 [ INFO ]         Thu 06. Mar 2025  06:20:49.222635 | Settings window opened.
 [ INFO ]         Thu 06. Mar 2025  06:21:02.109039 | Settings loaded from settings.json
 [ INFO ]         Thu 06. Mar 2025  06:21:02.497204 | Settings window opened.
+[ INFO ]         Fri 07. Mar 2025  16:15:03.086602 | Cleaning up: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'rm -rf \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ INFO ]         Fri 07. Mar 2025  16:15:03.193882 | Cleaned up successfully
+[ INFO ]         Fri 07. Mar 2025  16:15:10.566458 | Copying package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\lib to \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'cp -r \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\lib \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib' )
+[ INFO ]         Fri 07. Mar 2025  16:15:10.711070 | Copied package successfully
+[ INFO ]         Fri 07. Mar 2025  16:15:10.815204 | 
+[ INFO ]         Fri 07. Mar 2025  16:15:10.919286 | --------------------
+[ INFO ]         Fri 07. Mar 2025  16:15:11.023280 | Copied package successfully
+[ INFO ]         Fri 07. Mar 2025  16:15:11.127192 | 
+[ INFO ]         Fri 07. Mar 2025  16:15:11.231220 | You can now build the package
+[ INFO ]         Fri 07. Mar 2025  16:15:11.335171 | 
+[ INFO ]         Fri 07. Mar 2025  16:15:11.439321 | --------------------
+[ INFO ]         Fri 07. Mar 2025  16:16:02.842673 | Cleaning up: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'rm -rf \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ INFO ]         Fri 07. Mar 2025  16:16:02.949126 | Cleaned up successfully
+[ INFO ]         Fri 07. Mar 2025  16:16:03.958246 | Copying package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\lib to \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'cp -r \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\lib \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib' )
+[ INFO ]         Fri 07. Mar 2025  16:16:04.070867 | Copied package successfully
+[ INFO ]         Fri 07. Mar 2025  16:16:04.175209 | 
+[ INFO ]         Fri 07. Mar 2025  16:16:04.279232 | --------------------
+[ INFO ]         Fri 07. Mar 2025  16:16:04.383256 | Copied package successfully
+[ INFO ]         Fri 07. Mar 2025  16:16:04.487264 | 
+[ INFO ]         Fri 07. Mar 2025  16:16:04.591212 | You can now build the package
+[ INFO ]         Fri 07. Mar 2025  16:16:04.695142 | 
+[ INFO ]         Fri 07. Mar 2025  16:16:04.799209 | --------------------
+[ INFO ]         Fri 07. Mar 2025  16:18:04.488585 | Cleaning up: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'rm -rf \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ INFO ]         Fri 07. Mar 2025  16:18:04.593184 | Cleaned up successfully
+[ INFO ]         Fri 07. Mar 2025  16:18:08.401320 | Copying package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\lib to \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'cp -r \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\lib \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib' )
+[ INFO ]         Fri 07. Mar 2025  16:18:12.715422 | Copied package successfully
+[ INFO ]         Fri 07. Mar 2025  16:18:12.819083 | 
+[ INFO ]         Fri 07. Mar 2025  16:18:12.923065 | --------------------
+[ INFO ]         Fri 07. Mar 2025  16:18:13.027064 | Copied package successfully
+[ INFO ]         Fri 07. Mar 2025  16:18:13.131176 | 
+[ INFO ]         Fri 07. Mar 2025  16:18:13.235031 | You can now build the package
+[ INFO ]         Fri 07. Mar 2025  16:18:13.339045 | 
+[ INFO ]         Fri 07. Mar 2025  16:18:13.443040 | --------------------
+[ INFO ]         Fri 07. Mar 2025  16:18:22.387038 | Building package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Fri 07. Mar 2025  16:19:55.647739 | Cleaning up: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'rm -rf \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ INFO ]         Fri 07. Mar 2025  16:19:55.753499 | Cleaned up successfully
+[ INFO ]         Fri 07. Mar 2025  16:19:56.868480 | Copying package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\lib to \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'cp -r \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\lib \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib' )
+[ INFO ]         Fri 07. Mar 2025  16:20:01.139432 | Copied package successfully
+[ INFO ]         Fri 07. Mar 2025  16:20:01.243050 | 
+[ INFO ]         Fri 07. Mar 2025  16:20:01.347040 | --------------------
+[ INFO ]         Fri 07. Mar 2025  16:20:01.451152 | Copied package successfully
+[ INFO ]         Fri 07. Mar 2025  16:20:01.555183 | 
+[ INFO ]         Fri 07. Mar 2025  16:20:01.659121 | You can now build the package
+[ INFO ]         Fri 07. Mar 2025  16:20:01.763115 | 
+[ INFO ]         Fri 07. Mar 2025  16:20:01.867040 | --------------------
+[ INFO ]         Fri 07. Mar 2025  16:20:03.465326 | Building package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Fri 07. Mar 2025  16:22:44.482569 | Cleaning up: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'rm -rf \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ INFO ]         Fri 07. Mar 2025  16:22:44.589106 | Cleaned up successfully
+[ INFO ]         Fri 07. Mar 2025  16:22:46.403157 | Copying package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/lib/ to /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCPYLib/ ( CMD: 'cp -r /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/lib/ /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCPYLib/' )
+[ INFO ]         Fri 07. Mar 2025  16:22:51.031944 | Copied package successfully
+[ INFO ]         Fri 07. Mar 2025  16:22:51.135465 | 
+[ INFO ]         Fri 07. Mar 2025  16:22:51.239365 | --------------------
+[ INFO ]         Fri 07. Mar 2025  16:22:51.343340 | Copied package successfully
+[ INFO ]         Fri 07. Mar 2025  16:22:51.447368 | 
+[ INFO ]         Fri 07. Mar 2025  16:22:51.551194 | You can now build the package
+[ INFO ]         Fri 07. Mar 2025  16:22:51.655322 | 
+[ INFO ]         Fri 07. Mar 2025  16:22:51.759274 | --------------------
+[ INFO ]         Fri 07. Mar 2025  16:23:44.391079 | Cleaning up: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'rm -rf \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ INFO ]         Fri 07. Mar 2025  16:23:44.497101 | Cleaned up successfully
+[ INFO ]         Fri 07. Mar 2025  16:23:45.287752 | Copying package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/lib/* to /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCPYLib/ ( CMD: 'cp -r /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/lib/* /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCPYLib/' )
+[ INFO ]         Fri 07. Mar 2025  16:23:45.399011 | Copied package successfully
+[ INFO ]         Fri 07. Mar 2025  16:23:45.503194 | 
+[ INFO ]         Fri 07. Mar 2025  16:23:45.607414 | --------------------
+[ INFO ]         Fri 07. Mar 2025  16:23:45.711432 | Copied package successfully
+[ INFO ]         Fri 07. Mar 2025  16:23:45.815446 | 
+[ INFO ]         Fri 07. Mar 2025  16:23:45.919396 | You can now build the package
+[ INFO ]         Fri 07. Mar 2025  16:23:46.023344 | 
+[ INFO ]         Fri 07. Mar 2025  16:23:46.131269 | --------------------
+[ INFO ]         Fri 07. Mar 2025  16:27:00.593711 | Cleaning up: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'rm -rf \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ INFO ]         Fri 07. Mar 2025  16:27:00.698104 | Cleaned up successfully
+[ INFO ]         Fri 07. Mar 2025  16:27:01.914854 | Copying package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/lib to /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCPYLib ( CMD: 'cp -r /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/lib /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCPYLib' )
+[ INFO ]         Fri 07. Mar 2025  16:27:06.220039 | Copied package successfully
+[ INFO ]         Fri 07. Mar 2025  16:27:06.323057 | 
+[ INFO ]         Fri 07. Mar 2025  16:27:06.427067 | --------------------
+[ INFO ]         Fri 07. Mar 2025  16:27:06.531066 | Copied package successfully
+[ INFO ]         Fri 07. Mar 2025  16:27:06.635165 | 
+[ INFO ]         Fri 07. Mar 2025  16:27:06.739063 | You can now build the package
+[ INFO ]         Fri 07. Mar 2025  16:27:06.843031 | 
+[ INFO ]         Fri 07. Mar 2025  16:27:06.947052 | --------------------
+[ INFO ]         Fri 07. Mar 2025  16:27:11.684913 | Building package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\lib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ ERROR ]        Fri 07. Mar 2025  16:27:11.795271 | Error: [Errno 2] No such file or directory: '/media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCPYLib//media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/lib'
+[ ERROR ]        Fri 07. Mar 2025  16:27:11.899052 | Failed to build package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\lib
+[ ERROR ]        Fri 07. Mar 2025  16:27:12.003059 | Please build manually
+[ ERROR ]        Fri 07. Mar 2025  16:27:12.107065 | 
+[ ERROR ]        Fri 07. Mar 2025  16:27:12.211056 | --------------------
+[ CRITICAL ]     Fri 07. Mar 2025  16:27:12.315040 | Failed to build package
+[ INFO ]         Fri 07. Mar 2025  16:28:34.035159 | Cleaning up: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'rm -rf \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ INFO ]         Fri 07. Mar 2025  16:28:34.141075 | Cleaned up successfully
+[ INFO ]         Fri 07. Mar 2025  16:28:35.351294 | Copying package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/lib to /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCPYLib ( CMD: 'cp -r /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/lib /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCPYLib' )
+[ INFO ]         Fri 07. Mar 2025  16:28:39.639400 | Copied package successfully
+[ INFO ]         Fri 07. Mar 2025  16:28:39.743025 | 
+[ INFO ]         Fri 07. Mar 2025  16:28:39.847128 | --------------------
+[ INFO ]         Fri 07. Mar 2025  16:28:39.951058 | Copied package successfully
+[ INFO ]         Fri 07. Mar 2025  16:28:40.055085 | 
+[ INFO ]         Fri 07. Mar 2025  16:28:40.159025 | You can now build the package
+[ INFO ]         Fri 07. Mar 2025  16:28:40.263029 | 
+[ INFO ]         Fri 07. Mar 2025  16:28:40.367027 | --------------------
+[ INFO ]         Fri 07. Mar 2025  16:28:41.732530 | Building package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/lib ( CMD: 'python3 setup.py sdist bdist_wheel' )
+[ INFO ]         Fri 07. Mar 2025  16:29:47.039570 | Cleaning up: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib.egg-info ( CMD: 'rm -rf \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/\media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib.egg-info' )
+[ INFO ]         Fri 07. Mar 2025  16:29:47.146824 | Cleaned up successfully
+[ INFO ]         Fri 07. Mar 2025  16:29:48.001020 | Copying package: /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/lib to /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCPYLib ( CMD: 'cp -r /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/lib /media/Alexander/0BEA-0E12/PythonTemplate-EDIT-main/TCPYLib' )
+[ INFO ]         Fri 07. Mar 2025  16:29:52.671420 | Copied package successfully
+[ INFO ]         Fri 07. Mar 2025  16:29:52.775043 | 
+[ INFO ]         Fri 07. Mar 2025  16:29:52.883070 | --------------------
+[ INFO ]         Fri 07. Mar 2025  16:29:52.987069 | Copied package successfully
+[ INFO ]         Fri 07. Mar 2025  16:29:53.091090 | 
+[ INFO ]         Fri 07. Mar 2025  16:29:53.195047 | You can now build the package
+[ INFO ]         Fri 07. Mar 2025  16:29:53.299062 | 
+[ INFO ]         Fri 07. Mar 2025  16:29:53.403056 | --------------------
+[ INFO ]         Fri 07. Mar 2025  16:29:56.785084 | Building package: \media\Alexander\0BEA-0E12\PythonTemplate-EDIT-main\TCPYLib/lib ( CMD: 'python3 setup.py sdist bdist_wheel' )
