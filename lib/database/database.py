@@ -2,8 +2,9 @@ import sqlite3
 from sqlite3 import Connection
 from lib.logger.logger import Logger
 from lib.moduleExtension.eval import contains_sql
+from lib.config.loader import CONFIG
 
-l: Logger = Logger(printLog=True)
+l: Logger = Logger(printLog=CONFIG["libLogging"])
 
 def create_connection(db_file: str) -> Connection | None:
     """Create a database connection to the SQLite database specified by db_file."""

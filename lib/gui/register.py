@@ -3,9 +3,10 @@ from customtkinter import CTk, CTkEntry, CTkLabel, CTkButton, CTkImage
 from PIL import Image
 import customtkinter
 import sqlite3
-
 from lib.logger.logger import Logger
-l: Logger = Logger(printLog=True)
+from lib.config.loader import CONFIG
+
+l: Logger = Logger(printLog=CONFIG["libLogging"])
 
 APPLICATION_NAME: str = ""
 APPLICATION_GEOMETRIE: str = ""

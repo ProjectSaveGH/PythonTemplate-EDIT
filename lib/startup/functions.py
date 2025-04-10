@@ -4,8 +4,9 @@ import sys
 import shutil
 from rich.traceback import install
 from lib.logger.logger import Logger
+from lib.config.loader import CONFIG
 
-l: Logger = Logger(printLog=True)
+l: Logger = Logger(printLog=CONFIG["libLogging"])
 
 def clean_pycaches(root_dir, show: bool = False):
     """Durchsucht rekursiv das angegebene Verzeichnis und entfernt alle __pycache__-Ordner."""

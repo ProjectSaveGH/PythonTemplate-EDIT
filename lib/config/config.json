@@ -16,5 +16,6 @@
     },
     "paths": {
         "log_file": "logs/app.log"
-    }
+    },
+    "libLogging": true
 }

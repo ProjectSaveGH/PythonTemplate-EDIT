@@ -1,8 +1,9 @@
 import argparse
 from argparse import ArgumentParser
 from lib.logger.logger import Logger
+from lib.config.loader import CONFIG
 
-l: Logger = Logger(printLog=True)
+l: Logger = Logger(printLog=CONFIG["libLogging"])
 
 def add_arg(parser: ArgumentParser, name: str, help_text: str, default: str | None = None, action: str | None = None, required: bool = False) -> None:
     """Fügt ein Argument mit optionalen Werten hinzu."""

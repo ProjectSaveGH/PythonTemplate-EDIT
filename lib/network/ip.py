@@ -1,7 +1,6 @@
 import os
 import requests
 
-
 def get_ip():
     """Gibt die öffentliche IP-Adresse zurück."""
     return requests.get("https://api64.ipify.org").text

@@ -1,7 +1,8 @@
 import re
 from lib.logger.logger import Logger
+from lib.config.loader import CONFIG
 
-l: Logger = Logger(printLog=True)
+l: Logger = Logger(printLog=CONFIG["libLogging"])
 
 def parse_custom_time(time_str: str):
     """Parst ein benutzerdefiniertes Zeitformat in Sekunden."""

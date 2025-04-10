@@ -1,8 +1,9 @@
 import os
 import shutil
 from lib.logger.logger import Logger
+from lib.config.loader import CONFIG
 
-l: Logger = Logger(printLog=True)
+l: Logger = Logger(printLog=CONFIG["libLogging"])
 
 def create_folder(path):
     """Erstellt einen Ordner, falls er nicht existiert."""

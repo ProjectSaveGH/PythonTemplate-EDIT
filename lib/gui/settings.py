@@ -3,8 +3,9 @@ import customtkinter as ctk
 import json
 from tkinter import messagebox
 from lib.logger.logger import Logger
+from lib.config.loader import CONFIG
 
-l: Logger = Logger(printLog=True)
+l: Logger = Logger(printLog=CONFIG["libLogging"])
 
 
 def get_possible_values(config, x):

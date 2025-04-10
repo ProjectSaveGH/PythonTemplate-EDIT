@@ -1,7 +1,8 @@
 from typing import Any
 from lib.logger.logger import Logger
+from lib.config.loader import CONFIG
 
-l: Logger = Logger(printLog=True)
+l: Logger = Logger(printLog=CONFIG["libLogging"])
 
 def convert(from_type: str, to_type: str, value: Any) -> Any:
     """
