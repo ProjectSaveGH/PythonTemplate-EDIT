@@ -3,8 +3,10 @@ __pycache__/
 *.pyc
 
 # Own CUSTOM
+*.log.bak
 *.log
 logs/
+logs/*
 .pytest_cache/
 .vscode/
 *.db
